@@ -2,7 +2,7 @@
 """Reel da Star a partir de vídeo 4:5 já gravado (depoimento/dica): cortes, faixas da marca, chamada no topo, fechamento."""
 import subprocess, os
 W, H = 1080, 1920; VH = 1350; VY = 250
-LOGO = "/home/claude/kicks/logo.png"
+LOGO = os.path.join(os.path.dirname(os.path.abspath(__file__)), "logo.png")
 
 def ts(t): return f"{int(t//3600)}:{int(t%3600//60):02d}:{t%60:05.2f}"
 

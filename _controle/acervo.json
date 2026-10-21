@@ -1,0 +1,31 @@
+{
+ "baseline_pendente": true,
+ "observacao": "Na primeira execução da produção diária, liste a pasta inteira e grave em 'conhecidos' todos os arquivos que já existem (caminho relativo, tamanho, mtimeMs). Depois, arquivo NOVO = caminho que não está em 'conhecidos'. Atualize 'usados' sempre que usar um arquivo.",
+ "pasta": "C:\\Users\\Luiz Fernando\\OneDrive\\Área de Trabalho\\Fotos Star",
+ "usados": {
+  "Anúncio Star/Câmbio Automático_/Câmbio Mercedes C200/IMG_0878.HEIC": "lote1 story + carrossel",
+  "Anúncio Star/Câmbio Automático_/Câmbio BMW X1/IMG_0643.HEIC": "lote1 story + carrossel",
+  "Anúncio Star/Câmbio Automático_/Câmbio Audi Q5/IMG_0233.HEIC": "lote1 story + carrossel",
+  "Anúncio Star/Câmbio Automático_/Câmbio HRV/IMG_0165.HEIC": "lote1 story + carrossel + post equipe",
+  "Anúncio Star/Câmbio Automático_/Câmbio TR4/IMG_1645.HEIC": "lote1 story + carrossel",
+  "Anúncio Star/Câmbio Automático_/Câmbio Renegade/IMG_0175.HEIC": "lote1 story + carrossel",
+  "Anúncio Star/Câmbio Automático_/Câmbio 208/IMG_0660.HEIC": "lote1 story + carrossel",
+  "Anúncio Star/Câmbio Automático_/Câmbio Kicks/IMG_0656.HEIC": "lote2 story + carrossel sinais",
+  "Anúncio Star/Câmbio Automático_/Câmbio Audi Q3/IMG_0795.HEIC": "lote2 story + carrossel sinais",
+  "Anúncio Star/Câmbio Automático_/Câmbio C4 Pallas/IMG_0598.HEIC": "lote2 story + carrossel sinais",
+  "Anúncio Star/Câmbio Automático_/Câmbio CRV/IMG_0021.HEIC": "lote2 story + carrossel sinais",
+  "Anúncio Star/Câmbio Automático_/Câmbio Corolla/IMG_0554.HEIC": "lote2 story + carrossel sinais",
+  "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/IMG_0471.HEIC": "visto, modelo não identificado com certeza (parece Cruze): confirmar antes de nomear",
+  "Anúncio Star/Pneus Crystone/IMG_0283.HEIC": "lote1 story pneus",
+  "Anúncio Star/IMG_1678.HEIC": "NÃO USAR: foto da equipe no carnaval (Fernando recusou)",
+  "Anúncio Star/Câmbio Automático_/Vídeos_/Star 1F.MP4": "lote1 reel João + lote2 story citação",
+  "Anúncio Star/Câmbio Automático_/Vídeos_/Star Óleo 1F.MP4": "lote2 reel Alexandre",
+  "Anúncio Star/Star 1F (feedback).MP4": "lote2 reel Lúcio",
+  "Anúncio Star/Star 1F.MP4": "lote2 reel dica radiador"
+ },
+ "regras": [
+  "JPGs com nome em UUID dentro de Câmbio Automático_ costumam ter figurinhas antigas do Instagram por cima (\"Parcelamos em até 10x\", nome do carro): prefira o HEIC da mesma pasta; use o JPG só se não houver alternativa e se dá para recortar sem as figurinhas.",
+  "Artes antigas prontas (flyers, artes de pneu com medida, logo solto) não viram post: servem só de referência."
+ ],
+ "conhecidos": {}
+}

@@ -22,7 +22,7 @@ END = 2.8
 
 def seg_video(n, a, d, out, keep_audio=False):
     cmd = ["ffmpeg", "-v", "error", "-y", "-ss", str(a), "-i", f"src/{n}.mov", "-t", str(d),
-           "-vf", f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},eq=contrast=1.05:saturation=1.08,format=yuv420p",
+           "-vf", f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},eq=contrast=1.05:saturation=1.08,format=yuv420p,setparams=color_primaries=bt709:color_trc=bt709:colorspace=bt709:range=tv",
            "-c:v", "libx264", "-preset", "fast", "-crf", "17"]
     cmd += ["-an"] if not keep_audio else []
     subprocess.run(cmd + [out], check=True)
@@ -44,7 +44,7 @@ subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "lavfi", "-i", f"color=c=0x
 parts.append("t/end.mp4"); TOT = T_END + END
 open("t/list.txt", "w").write("".join(f"file '{os.path.abspath(p)}'\n" for p in parts))
 subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", "t/list.txt", "-c:v", "libx264",
-                "-crf", "16", "-pix_fmt", "yuv420p", "t/joined.mp4"], check=True)
+                "-crf", "16", "-pix_fmt", "yuv420p", "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709", "t/joined.mp4"], check=True)
 
 # ---------- áudio ----------
 subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", "narr.mp3", "-af", "loudnorm=I=-16:TP=-2,aresample=48000", "-ac", "2", "t/narr.wav"], check=True)
@@ -110,13 +110,13 @@ def caption(words, off, cy=1400):
             add(st, en, "Cap", 540, cy, " ".join(parts), layer=2, extra=POP if k == 0 else "")
 
 # locução (texto do roteiro, tempos da transcrição local)
-NARR = [("Fiat",0.00,0.30),("Cronos",0.32,1.0),("1.3",1.10,1.7),("CVT",1.76,2.4),("aqui",2.50,2.75),("na",2.78,2.95),("Star.",2.98,3.43),
-        ("A",3.78,3.95),("máquina",3.96,4.2),("tira",4.22,4.7),("o",4.72,4.83),("óleo",4.84,5.0),("velho",5.02,5.34),("do",5.36,5.5),("câmbio.",5.52,5.84),
-        ("Depois,",6.24,6.75),("a",6.80,6.81),("gente",6.82,6.98),("baixa",7.00,7.38),("o",7.40,7.5),("cárter,",7.52,8.1),("limpa",8.12,8.4),("a",8.42,8.56),("borra",8.58,8.82),
-        ("e",8.84,9.06),("troca",9.08,9.42),("o",9.44,9.58),("filtro.",9.60,9.89),
-        ("Entra",10.30,10.56),("o",10.58,10.64),("Motul",10.66,10.9),("Multi",10.92,11.3),("CVTF,",11.32,12.2),("específico",12.26,13.1),("para",13.18,13.36),
-        ("câmbio",13.38,13.68),("CVT,",13.70,14.2),("até",14.28,14.8),("o",14.82,15.0),("fluido",15.02,15.32),("sair",15.34,15.6),("limpo.",15.62,16.0),
-        ("Nível",16.48,16.68),("conferido,",16.70,17.4),("câmbio",17.78,17.9),("pronto.",17.92,18.5)]
+NARR = [("Fiat",0.00,0.30),("Cronos",0.30,0.84),("1.3",0.84,1.6),("CVT",1.60,2.3),("aqui",2.32,2.54),("na",2.54,2.74),("Star.",2.74,3.08),
+        ("A",3.52,3.7),("máquina",3.70,3.98),("tira",3.98,4.46),("o",4.46,4.6),("óleo",4.60,4.78),("velho",4.78,5.1),("do",5.10,5.28),("câmbio.",5.28,5.63),
+        ("Depois,",6.00,6.3),("a",6.30,6.46),("gente",6.46,6.62),("baixa",6.62,7.08),("o",7.08,7.18),("cárter,",7.18,7.6),("limpa",7.78,8.1),("a",8.10,8.28),("borra",8.28,8.54),
+        ("e",8.54,8.78),("troca",8.78,9.18),("o",9.18,9.32),("filtro.",9.32,9.61),
+        ("Entra",10.00,10.28),("o",10.28,10.34),("Motul",10.34,10.66),("Multi",10.66,10.98),("CVTF,",10.98,11.96),("específico",11.96,12.94),("para",12.94,13.12),
+        ("câmbio",13.12,13.44),("CVT,",13.44,14.02),("até",14.02,14.6),("o",14.60,14.78),("fluido",14.78,15.12),("sair",15.12,15.36),("limpo.",15.36,15.72),
+        ("Nível",16.14,16.36),("conferido,",16.36,17.04),("câmbio",17.42,17.62),("pronto.",17.62,18.2)]
 caption(NARR, VO_OFF)
 
 # falas reais (palavras do Scribe)
@@ -132,10 +132,10 @@ for (t0, n, a, b, who) in talk_t:
 
 # fechamento
 D = "\\fad(300,0)"
-add(T_END + 0.35, TOT, "Big", 540, 880, "SEU CÂMBIO", extra=D)
-add(T_END + 0.5, TOT, "Big", 540, 1000, g("EM BOAS MÃOS."), extra=D)
-add(T_END + 0.8, TOT, "Btn", 540, 1170, "WHATSAPP  (21) 97544-6417", extra=D + POP)
-add(T_END + 1.0, TOT, "Info", 540, 1295, "Estr. dos Bandeirantes, 841 · Taquara", extra=D)
+add(T_END + 0.35, TOT, "Big", 540, 935, "SEU CÂMBIO", extra=D)
+add(T_END + 0.5, TOT, "Big", 540, 1055, g("EM BOAS MÃOS."), extra=D)
+add(T_END + 0.8, TOT, "Btn", 540, 1225, "WHATSAPP  (21) 97544-6417", extra=D + POP)
+add(T_END + 1.0, TOT, "Info", 540, 1350, "Estr. dos Bandeirantes, 841 · Taquara", extra=D)
 open("t/subs.ass", "w").write(hdr + "\n".join(ev) + "\n")
 
 # gradiente topo e base para leitura
@@ -152,8 +152,8 @@ fc = ("[1:v]format=rgba,scale=210:-1:flags=lanczos,split=2[ls][lb0];[lb0]scale=5
       f"[lb]fade=t=in:st={T_END+0.05}:d=0.45:alpha=1[lbf];"
       "movie=t/grad.png[gr];[0:v][gr]overlay=0:0:enable='lt(t," + f"{T_END}" + ")'[v0];"
       f"[v0][ls]overlay=x=(W-w)/2:y=150:enable='lt(t,{T_END})'[v1];"
-      f"[v1][lbf]overlay=x=(W-w)/2:y=560:enable='gte(t,{T_END})'[v2];[v2]ass=t/subs.ass[v]")
+      f"[v1][lbf]overlay=x=(W-w)/2:y=520:enable='gte(t,{T_END})'[v2];[v2]ass=t/subs.ass,setparams=color_primaries=bt709:color_trc=bt709:colorspace=bt709[v]")
 subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", "t/joined.mp4", "-loop", "1", "-framerate", str(FPS), "-i", LOGO, "-i", "t/mix.wav",
                 "-filter_complex", fc, "-map", "[v]", "-map", "2:a", "-t", f"{TOT:.2f}", "-c:v", "libx264", "-preset", "slow", "-crf", "18",
-                "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", "reel_cronos_ramone.mp4"], check=True)
+                "-pix_fmt", "yuv420p", "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709", "-color_range", "tv", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", "reel_cronos_ramone.mp4"], check=True)
 print("ok", round(B_END, 2), round(T_END, 2), round(TOT, 2))

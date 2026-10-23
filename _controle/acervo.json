@@ -23,7 +23,10 @@
   "Anúncio Star/Star 1F (feedback).MP4": "lote2 reel Lúcio",
   "Anúncio Star/Star 1F.MP4": "lote2 reel dica radiador",
   "Anúncio Star/3A4F854B070AE6FD4648.jpg": "lote-2026-10-22 story Honda Civic (preparado, ainda sem data no Buffer; Civic com capa de placa da Star)",
-  "Anúncio Star/3A33163ED6C218FB448C.jpg": "lote-2026-10-22 story Chevrolet (modelo não confirmado: parece Cobalt; placa borrada; preparado, ainda sem data no Buffer)"
+  "Anúncio Star/3A33163ED6C218FB448C.jpg": "lote-2026-10-22 story Chevrolet (modelo não confirmado: parece Cobalt; placa borrada; preparado, ainda sem data no Buffer)",
+  "Anúncio Star/1899b1c7-6987-4ac6-9a7a-402b3e152283.JPG": "trends: carrossel Halloween slide 3 (31/10)",
+  "Anúncio Star/IMG_6037.HEIC": "trends: fundo borrado do carrossel Halloween (pode usar de novo nítido)",
+  "Anúncio Star/Câmbio Automático_/Vídeos_/Star - CRV oléo do câmbio.MP4": "trends: b-roll 10-26 s no reel 'Dinheiro não compra felicidade' (29/10); o vídeo já é editado com legenda e fala do Fernando, ainda dá para um reel próprio depois de 14 dias"
  },
  "regras": [
   "JPGs com nome em UUID dentro de Câmbio Automático_ costumam ter figurinhas antigas do Instagram por cima (\"Parcelamos em até 10x\", nome do carro): prefira o HEIC da mesma pasta; use o JPG só se não houver alternativa e se dá para recortar sem as figurinhas.",

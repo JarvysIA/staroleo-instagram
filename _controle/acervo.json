@@ -1,1871 +1,1875 @@
 {
- "baseline_pendente": false,
- "observacao": "Na primeira execução da produção diária, liste a pasta inteira e grave em 'conhecidos' todos os arquivos que já existem (caminho relativo, tamanho, mtimeMs). Depois, arquivo NOVO = caminho que não está em 'conhecidos'. Atualize 'usados' sempre que usar um arquivo. | 24/10: arquivos soltos de 21/10 registrados (mtimeMs null = registrado sem mtime do notebook); descrição de cada um em \"catalogo\".",
- "pasta": "C:\\Users\\Luiz Fernando\\OneDrive\\Área de Trabalho\\Fotos Star",
- "usados": {
-  "Anúncio Star/Câmbio Automático_/Câmbio Mercedes C200/IMG_0878.HEIC": "lote1 story + carrossel",
-  "Anúncio Star/Câmbio Automático_/Câmbio BMW X1/IMG_0643.HEIC": "lote1 story + carrossel",
-  "Anúncio Star/Câmbio Automático_/Câmbio Audi Q5/IMG_0233.HEIC": "lote1 story + carrossel",
-  "Anúncio Star/Câmbio Automático_/Câmbio HRV/IMG_0165.HEIC": "lote1 story + carrossel + post equipe",
-  "Anúncio Star/Câmbio Automático_/Câmbio TR4/IMG_1645.HEIC": "lote1 story + carrossel",
-  "Anúncio Star/Câmbio Automático_/Câmbio Renegade/IMG_0175.HEIC": "lote1 story + carrossel",
-  "Anúncio Star/Câmbio Automático_/Câmbio 208/IMG_0660.HEIC": "lote1 story + carrossel",
-  "Anúncio Star/Câmbio Automático_/Câmbio Kicks/IMG_0656.HEIC": "lote2 story + carrossel sinais",
-  "Anúncio Star/Câmbio Automático_/Câmbio Audi Q3/IMG_0795.HEIC": "lote2 story + carrossel sinais",
-  "Anúncio Star/Câmbio Automático_/Câmbio C4 Pallas/IMG_0598.HEIC": "lote2 story + carrossel sinais",
-  "Anúncio Star/Câmbio Automático_/Câmbio CRV/IMG_0021.HEIC": "lote2 story + carrossel sinais",
-  "Anúncio Star/Câmbio Automático_/Câmbio Corolla/IMG_0554.HEIC": "lote2 story + carrossel sinais",
-  "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/IMG_0471.HEIC": "visto, modelo não identificado com certeza (parece Cruze): confirmar antes de nomear",
-  "Anúncio Star/Pneus Crystone/IMG_0283.HEIC": "lote1 story pneus",
-  "Anúncio Star/IMG_1678.HEIC": "NÃO USAR: foto da equipe no carnaval (Fernando recusou)",
-  "Anúncio Star/Câmbio Automático_/Vídeos_/Star 1F.MP4": "lote1 reel João + lote2 story citação",
-  "Anúncio Star/Câmbio Automático_/Vídeos_/Star Óleo 1F.MP4": "lote2 reel Alexandre",
-  "Anúncio Star/Star 1F (feedback).MP4": "lote2 reel Lúcio",
-  "Anúncio Star/Star 1F.MP4": "lote2 reel dica radiador",
-  "Anúncio Star/3A4F854B070AE6FD4648.jpg": "lote-2026-10-22 story Honda Civic (preparado, ainda sem data no Buffer; Civic com capa de placa da Star)",
-  "Anúncio Star/3A33163ED6C218FB448C.jpg": "lote-2026-10-22 story Chevrolet (modelo não confirmado: parece Cobalt; placa borrada; preparado, ainda sem data no Buffer)",
-  "Anúncio Star/1899b1c7-6987-4ac6-9a7a-402b3e152283.JPG": "trends: carrossel Halloween slide 3 (31/10)",
-  "Anúncio Star/IMG_6037.HEIC": "trends: fundo borrado do carrossel Halloween (pode usar de novo nítido)",
-  "Anúncio Star/Câmbio Automático_/Vídeos_/Star - CRV oléo do câmbio.MP4": "trends: b-roll 10-26 s no reel 'Dinheiro não compra felicidade' (29/10); o vídeo já é editado com legenda e fala do Fernando, ainda dá para um reel próprio depois de 14 dias",
-  "Anúncio Star/IMG_0959.HEIC": "lote-2026-10-24 story Já passou aqui Renault Captur",
-  "Anúncio Star/IMG_1213.HEIC": "lote-2026-10-24 story Já passou aqui Honda Fit",
-  "Anúncio Star/IMG_2636.HEIC": "lote-2026-10-24 story Já passou aqui Jaguar F-Pace",
-  "Anúncio Star/IMG_1848.HEIC": "lote-2026-10-24 story bastidor filtro velho x novo (29/10)",
-  "Anúncio Star/IMG_2547.HEIC": "lote-2026-10-24 fundo do story dica \"óleo do câmbio não é eterno\" (30/10)",
-  "Anúncio Star/Pneus Crystone/IMG_0291.HEIC": "lote-2026-10-24 story pneus Crystone (31/10)",
-  "Anúncio Star/IMG_4665.MOV": "anúncio Taquara (anuncio_taquara_jumpcut.py)",
-  "Anúncio Star/954d019a-18c3-4a46-9158-782f25a5ca65.MP4": "versão editada do anúncio Taquara: não repostar"
- },
- "regras": [
-  "JPGs com nome em UUID dentro de Câmbio Automático_ costumam ter figurinhas antigas do Instagram por cima (\"Parcelamos em até 10x\", nome do carro): prefira o HEIC da mesma pasta; use o JPG só se não houver alternativa e se dá para recortar sem as figurinhas.",
-  "Artes antigas prontas (flyers, artes de pneu com medida, logo solto) não viram post: servem só de referência.",
-  "Fotos com nome tipo 3A33163ED6C218FB448C.jpg (vindas do WhatsApp) são pequenas (720 px): servem para story, evite feed."
- ],
- "conhecidos": {
-  "Anúncio Star/16c1a29e-7011-4c84-af8e-3507ba13c9ec.jpg": {
-   "tamanho": 35508,
-   "mtimeMs": 1761233531000
-  },
-  "Anúncio Star/31A2D20D-54E5-4C73-96F3-0AE39FC38250.JPG": {
-   "tamanho": 2868228,
-   "mtimeMs": 1759953092000
-  },
-  "Anúncio Star/31b14cd2-39dd-40e8-b057-f23033b06286.JPG": {
-   "tamanho": 272188,
-   "mtimeMs": 1759502322000
-  },
-  "Anúncio Star/3A33163ED6C218FB448C.jpg": {
-   "tamanho": 165034,
-   "mtimeMs": 1792611010750
-  },
-  "Anúncio Star/3A4F854B070AE6FD4648.jpg": {
-   "tamanho": 197766,
-   "mtimeMs": 1792611046971
-  },
-  "Anúncio Star/3BECEB16-7D6F-4F25-A764-6331C64E212A.JPG": {
-   "tamanho": 1778622,
-   "mtimeMs": 1769614553000
-  },
-  "Anúncio Star/8c6f59e4-759f-4efb-a90c-9810dbfaea8b.JPG": {
-   "tamanho": 399991,
-   "mtimeMs": 1759408592000
-  },
-  "Anúncio Star/Caricatura Fernando.PNG": {
-   "tamanho": 2611042,
-   "mtimeMs": 1770731514000
-  },
-  "Anúncio Star/EDF33FDC-D028-4ECE-B68C-1A96E25BB994.JPG": {
-   "tamanho": 2015244,
-   "mtimeMs": 1768065871000
-  },
-  "Anúncio Star/IMG_0209.HEIC": {
-   "tamanho": 2840230,
-   "mtimeMs": 1764171273000
-  },
-  "Anúncio Star/IMG_0431.HEIC": {
-   "tamanho": 3235434,
-   "mtimeMs": 1765198617000
-  },
-  "Anúncio Star/IMG_0433.HEIC": {
-   "tamanho": 3239408,
-   "mtimeMs": 1765198681000
-  },
-  "Anúncio Star/IMG_1678.HEIC": {
-   "tamanho": 3595231,
-   "mtimeMs": 1771004744000
-  },
-  "Anúncio Star/IMG_1789.MOV": {
-   "tamanho": 132327913,
-   "mtimeMs": 1771678615000
-  },
-  "Anúncio Star/IMG_4865.HEIC": {
-   "tamanho": 1933944,
-   "mtimeMs": 1730754020000
-  },
-  "Anúncio Star/IMG_6339.HEIC": {
-   "tamanho": 2227967,
-   "mtimeMs": 1692284415000
-  },
-  "Anúncio Star/IMG_8376.JPG": {
-   "tamanho": 34315,
-   "mtimeMs": 1753189879000
-  },
-  "Anúncio Star/IMG_9410.HEIC": {
-   "tamanho": 2071149,
-   "mtimeMs": 1759953092000
-  },
-  "Anúncio Star/IMG_9828.HEIC": {
-   "tamanho": 2893819,
-   "mtimeMs": 1761930543000
-  },
-  "Anúncio Star/Star 1F (feedback).MP4": {
-   "tamanho": 45940981,
-   "mtimeMs": 1770841843000
-  },
-  "Anúncio Star/Star 1F.MP4": {
-   "tamanho": 15531314,
-   "mtimeMs": 1771849655000
-  },
-  "Anúncio Star/Pneus Crystone/0DB610ED-5AE3-4D7B-8FA0-A4B53511DBA9.JPG": {
-   "tamanho": 1766314,
-   "mtimeMs": 1762805630000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_0283.HEIC": {
-   "tamanho": 3947511,
-   "mtimeMs": 1764431764000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_0284.HEIC": {
-   "tamanho": 3178621,
-   "mtimeMs": 1764431789000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_0285.HEIC": {
-   "tamanho": 3380569,
-   "mtimeMs": 1764431934000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_0286.HEIC": {
-   "tamanho": 3078506,
-   "mtimeMs": 1764431942000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_0287.HEIC": {
-   "tamanho": 3390888,
-   "mtimeMs": 1764432082000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_0288.HEIC": {
-   "tamanho": 3108627,
-   "mtimeMs": 1764432089000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_0289.HEIC": {
-   "tamanho": 3365247,
-   "mtimeMs": 1764432208000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_0290.HEIC": {
-   "tamanho": 2947283,
-   "mtimeMs": 1764432214000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_0291.HEIC": {
-   "tamanho": 3288067,
-   "mtimeMs": 1764432331000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_0292.HEIC": {
-   "tamanho": 2998543,
-   "mtimeMs": 1764432340000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_0293.HEIC": {
-   "tamanho": 3263876,
-   "mtimeMs": 1764432456000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_0294.HEIC": {
-   "tamanho": 2877099,
-   "mtimeMs": 1764432462000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_0295.HEIC": {
-   "tamanho": 3581534,
-   "mtimeMs": 1764432577000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_0296.HEIC": {
-   "tamanho": 3178739,
-   "mtimeMs": 1764432583000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_0297.HEIC": {
-   "tamanho": 3415274,
-   "mtimeMs": 1764432682000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_0298.HEIC": {
-   "tamanho": 3244093,
-   "mtimeMs": 1764432690000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_0299.HEIC": {
-   "tamanho": 3675621,
-   "mtimeMs": 1764432938000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_0300.HEIC": {
-   "tamanho": 3397985,
-   "mtimeMs": 1764432944000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_0828.JPG": {
-   "tamanho": 311947,
-   "mtimeMs": 1767463293000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_9049.JPG": {
-   "tamanho": 310524,
-   "mtimeMs": 1759419953000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_9050.JPG": {
-   "tamanho": 310553,
-   "mtimeMs": 1759419953000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_9051.JPG": {
-   "tamanho": 312077,
-   "mtimeMs": 1759419953000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_9052.JPG": {
-   "tamanho": 310321,
-   "mtimeMs": 1759419953000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_9053.JPG": {
-   "tamanho": 310644,
-   "mtimeMs": 1759419953000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_9054.JPG": {
-   "tamanho": 309848,
-   "mtimeMs": 1759419953000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_9055.JPG": {
-   "tamanho": 310995,
-   "mtimeMs": 1759419953000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_9056.JPG": {
-   "tamanho": 310041,
-   "mtimeMs": 1759419953000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_9057.JPG": {
-   "tamanho": 310164,
-   "mtimeMs": 1759419953000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_9058.JPG": {
-   "tamanho": 310749,
-   "mtimeMs": 1759419953000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_9059.JPG": {
-   "tamanho": 311215,
-   "mtimeMs": 1759419954000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_9267.JPG": {
-   "tamanho": 404958,
-   "mtimeMs": 1759419953000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_9268.JPG": {
-   "tamanho": 309654,
-   "mtimeMs": 1759419953000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_9270.JPG": {
-   "tamanho": 310430,
-   "mtimeMs": 1759419953000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_9271.JPG": {
-   "tamanho": 311008,
-   "mtimeMs": 1759419953000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_9283.JPG": {
-   "tamanho": 311082,
-   "mtimeMs": 1759419954000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_9284.JPG": {
-   "tamanho": 310101,
-   "mtimeMs": 1759419954000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_9285.JPG": {
-   "tamanho": 311207,
-   "mtimeMs": 1759419954000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_9800.HEIC": {
-   "tamanho": 2721395,
-   "mtimeMs": 1761764203000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_9801.HEIC": {
-   "tamanho": 2682657,
-   "mtimeMs": 1761764369000
-  },
-  "Anúncio Star/Pneus Crystone/IMG_9802.HEIC": {
-   "tamanho": 2767554,
-   "mtimeMs": 1761764501000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio 208/1D0F76B3-4AE2-483A-9B4D-F524903B965E.JPG": {
-   "tamanho": 821979,
-   "mtimeMs": 1774109849000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio 208/IMG_0660.HEIC": {
-   "tamanho": 3488490,
-   "mtimeMs": 1766242979000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio 208/IMG_0661.HEIC": {
-   "tamanho": 3060442,
-   "mtimeMs": 1766242988000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Audi Q3/31E6A06D-8454-45B8-93BD-28A13F4F4B65.JPG": {
-   "tamanho": 536126,
-   "mtimeMs": 1775324870000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Audi Q3/885AE907-141A-4398-B0C8-565E8DC8A88B.JPG": {
-   "tamanho": 1058396,
-   "mtimeMs": 1767106088000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Audi Q3/IMG_0794.HEIC": {
-   "tamanho": 2791698,
-   "mtimeMs": 1767104595000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Audi Q3/IMG_0795.HEIC": {
-   "tamanho": 4080465,
-   "mtimeMs": 1767106088000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Audi Q3/IMG_0796.HEIC": {
-   "tamanho": 4079228,
-   "mtimeMs": 1767106094000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Audi Q5/EF0F345D-545A-4DDF-A1C8-7C8C6EB471CD.JPG": {
-   "tamanho": 2621564,
-   "mtimeMs": 1764253854000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Audi Q5/IMG_0231.HEIC": {
-   "tamanho": 2273088,
-   "mtimeMs": 1764249883000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Audi Q5/IMG_0233.HEIC": {
-   "tamanho": 3064242,
-   "mtimeMs": 1764253854000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Audi Q5/IMG_0234.HEIC": {
-   "tamanho": 3983727,
-   "mtimeMs": 1764253866000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Audi Q5/IMG_0235.HEIC": {
-   "tamanho": 3978223,
-   "mtimeMs": 1764253875000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio BMW X1/D46E3D7B-00BB-4C02-B294-22D15A20173B.JPG": {
-   "tamanho": 817113,
-   "mtimeMs": 1771277359000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio BMW X1/IMG_0643.HEIC": {
-   "tamanho": 3459680,
-   "mtimeMs": 1766167584000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio BMW X1/IMG_0644.HEIC": {
-   "tamanho": 3395343,
-   "mtimeMs": 1766167591000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio BMW X1/IMG_0647.MOV": {
-   "tamanho": 154827368,
-   "mtimeMs": 1766168267000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio BMW X1/IMG_0650.MOV": {
-   "tamanho": 197665498,
-   "mtimeMs": 1766168360000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio BMW X1/IMG_0651.MOV": {
-   "tamanho": 128866892,
-   "mtimeMs": 1766168447000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio C4 Pallas/D6AD2E20-271E-427E-B6E9-6B325EBCB9ED.JPG": {
-   "tamanho": 827111,
-   "mtimeMs": 1772813083000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio C4 Pallas/IMG_0598.HEIC": {
-   "tamanho": 3381263,
-   "mtimeMs": 1765904616000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio C4 Pallas/IMG_0599.HEIC": {
-   "tamanho": 3438486,
-   "mtimeMs": 1765904624000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/016BEEA3-DA83-436F-AA09-EA5825F77F0A.JPG": {
-   "tamanho": 860815,
-   "mtimeMs": 1773356033000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/37e98a8d-7d91-4d2f-8dd2-225bbac75806.JPG": {
-   "tamanho": 396790,
-   "mtimeMs": 1777036734000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/4006e361-ecff-43a6-9e63-9f15f35c9fe2.JPG": {
-   "tamanho": 255266,
-   "mtimeMs": 1780661606000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/4674de57-2b90-4f24-a352-41219320cd27.JPG": {
-   "tamanho": 226049,
-   "mtimeMs": 1774702473000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/506e301f-2d91-4077-95cf-4e0d5da3bc30.JPG": {
-   "tamanho": 407577,
-   "mtimeMs": 1777383947000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/7128e895-3177-401b-99b9-fcb0f9c75ade.JPG": {
-   "tamanho": 310253,
-   "mtimeMs": 1774365373000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/82fa9af4-da4d-4b6f-bc40-35b615778c7c.JPG": {
-   "tamanho": 1973384,
-   "mtimeMs": 1781957962000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/85c9b0ce-5207-44d4-9a6c-e4bf25261203.JPG": {
-   "tamanho": 1679369,
-   "mtimeMs": 1781962031000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/D2671D47-D0E2-4E43-AB1F-BE24C85B9134.JPG": {
-   "tamanho": 2854581,
-   "mtimeMs": 1765377554000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/d7a372fa-e5c2-4721-969c-4cd19bdd10e6.JPG": {
-   "tamanho": 1797480,
-   "mtimeMs": 1781697847000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/f4734591-8060-4bcf-b265-57eaf10fc08c.JPG": {
-   "tamanho": 411999,
-   "mtimeMs": 1777379170000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/f6058e40-65f0-4739-b007-fabc9fca0c43.JPG": {
-   "tamanho": 224524,
-   "mtimeMs": 1774700431000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/IMG_0471.HEIC": {
-   "tamanho": 3316558,
-   "mtimeMs": 1765377554000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/IMG_0472.HEIC": {
-   "tamanho": 3283402,
-   "mtimeMs": 1765377566000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/IMG_0662.HEIC": {
-   "tamanho": 3546826,
-   "mtimeMs": 1766246446000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/IMG_0663.HEIC": {
-   "tamanho": 3307527,
-   "mtimeMs": 1766246454000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/IMG_0887.HEIC": {
-   "tamanho": 3882077,
-   "mtimeMs": 1767892665000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/IMG_0990.HEIC": {
-   "tamanho": 3716766,
-   "mtimeMs": 1768412352000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/IMG_1893.HEIC": {
-   "tamanho": 3959784,
-   "mtimeMs": 1772278299000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/IMG_2235.HEIC": {
-   "tamanho": 4069079,
-   "mtimeMs": 1774027897000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Corolla/IMG_0554.HEIC": {
-   "tamanho": 3885766,
-   "mtimeMs": 1765629530000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Corolla/IMG_0555.HEIC": {
-   "tamanho": 3930712,
-   "mtimeMs": 1765629534000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Corolla/IMG_0556.HEIC": {
-   "tamanho": 3918846,
-   "mtimeMs": 1765629543000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Corolla/IMG_0557.HEIC": {
-   "tamanho": 3006657,
-   "mtimeMs": 1765629630000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio CRV/8B579253-BF2A-444B-9E2B-74A77457EECD.JPG": {
-   "tamanho": 2872097,
-   "mtimeMs": 1763143953000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio CRV/IMG_0021.HEIC": {
-   "tamanho": 3452489,
-   "mtimeMs": 1763143953000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio HRV/09C72ADF-2AA3-4787-A8A3-5035C9968AC8.JPG": {
-   "tamanho": 540752,
-   "mtimeMs": 1775877974000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio HRV/AA8D3AB2-6C75-4EE2-9AF9-33C9201C4891.JPG": {
-   "tamanho": 737566,
-   "mtimeMs": 1775877974000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio HRV/B98D7973-20D0-4E2E-B7F1-F550898F6945.JPG": {
-   "tamanho": 785165,
-   "mtimeMs": 1775877974000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio HRV/IMG_0165.HEIC": {
-   "tamanho": 3533784,
-   "mtimeMs": 1764009047000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio HRV/IMG_0166.HEIC": {
-   "tamanho": 2544692,
-   "mtimeMs": 1764010696000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio HRV/IMG_0167.HEIC": {
-   "tamanho": 2203331,
-   "mtimeMs": 1764015425000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio HRV/IMG_1632.HEIC": {
-   "tamanho": 3461194,
-   "mtimeMs": 1770903420000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio HRV/IMG_1633.HEIC": {
-   "tamanho": 3455851,
-   "mtimeMs": 1770903427000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio HRV/IMG_1636.HEIC": {
-   "tamanho": 2651636,
-   "mtimeMs": 1770904265000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio HRV/IMG_1642.HEIC": {
-   "tamanho": 2050929,
-   "mtimeMs": 1770906836000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Kicks/15D4CE0D-6EAE-4AA5-804E-8D64FDCF2CBF.JPG": {
-   "tamanho": 796238,
-   "mtimeMs": 1774834329000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Kicks/672BD925-2C1B-41CC-9F0A-EBE79BB477E4.JPG": {
-   "tamanho": 595457,
-   "mtimeMs": 1774834329000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Kicks/A9AC987B-CAB5-400B-908F-C4C7E86774F5.JPG": {
-   "tamanho": 885305,
-   "mtimeMs": 1774834329000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Kicks/IMG_0656.HEIC": {
-   "tamanho": 3580692,
-   "mtimeMs": 1766233451000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Kicks/IMG_0657.HEIC": {
-   "tamanho": 3273048,
-   "mtimeMs": 1766233460000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Kicks/IMG_0658.HEIC": {
-   "tamanho": 3253563,
-   "mtimeMs": 1766236203000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Mercedes A200/0caee111-2362-442e-a55c-197bc8723400.JPG": {
-   "tamanho": 271871,
-   "mtimeMs": 1764105264000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Mercedes A200/56F16C46-17EF-4AB9-A661-7C9BD8550DDB.JPG": {
-   "tamanho": 255276,
-   "mtimeMs": 1765321301000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Mercedes A200/933CE6F5-F5AC-4F41-B57C-22F670DEC656.JPG": {
-   "tamanho": 416813,
-   "mtimeMs": 1765321301000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Mercedes A200/D71BB183-55D4-40A7-A179-CB2240202F54.JPG": {
-   "tamanho": 323262,
-   "mtimeMs": 1765321301000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Mercedes A200/e7553933-c299-4951-a556-d66629268607.JPG": {
-   "tamanho": 204010,
-   "mtimeMs": 1764105264000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Mercedes A200/f9c6b23b-2748-43f2-9c18-dfd599c0061b.JPG": {
-   "tamanho": 330175,
-   "mtimeMs": 1764105281000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Mercedes C200/360C5896-ABF5-47E6-9E40-DEBD901E3FBF.JPG": {
-   "tamanho": 3042062,
-   "mtimeMs": 1767875808000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Mercedes C200/IMG_0878.HEIC": {
-   "tamanho": 3737226,
-   "mtimeMs": 1767875808000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Mercedes C200/IMG_0879.HEIC": {
-   "tamanho": 3742776,
-   "mtimeMs": 1767875816000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Renegade/10A9E02D-CAA4-48D0-97C3-DA0C07AD501D.JPG": {
-   "tamanho": 2751600,
-   "mtimeMs": 1764078157000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio Renegade/IMG_0175.HEIC": {
-   "tamanho": 3947658,
-   "mtimeMs": 1764078157000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio TR4/5076AD18-AAEE-4854-A106-E4CA58594825.JPG": {
-   "tamanho": 676214,
-   "mtimeMs": 1776620173000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio TR4/AD4BE9B6-4F5F-4B96-8231-F6829820E42C.JPG": {
-   "tamanho": 789521,
-   "mtimeMs": 1776620173000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio TR4/E3290047-8EA3-48FF-B8AE-9F405CB1B38F.JPG": {
-   "tamanho": 604160,
-   "mtimeMs": 1776620173000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio TR4/IMG_1645.HEIC": {
-   "tamanho": 3537805,
-   "mtimeMs": 1770916792000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio TR4/IMG_1646.HEIC": {
-   "tamanho": 2873623,
-   "mtimeMs": 1770916800000
-  },
-  "Anúncio Star/Câmbio Automático_/Câmbio TR4/IMG_1647.HEIC": {
-   "tamanho": 2962487,
-   "mtimeMs": 1770917806000
-  },
-  "Anúncio Star/Câmbio Automático_/Vídeos_/IMG_1653.MOV": {
-   "tamanho": 322092390,
-   "mtimeMs": 1770924451000
-  },
-  "Anúncio Star/Câmbio Automático_/Vídeos_/IMG_2188.MOV": {
-   "tamanho": 324964604,
-   "mtimeMs": 1773839929000
-  },
-  "Anúncio Star/Câmbio Automático_/Vídeos_/Star - CRV oléo do câmbio.MP4": {
-   "tamanho": 103437290,
-   "mtimeMs": 1766341356000
-  },
-  "Anúncio Star/Câmbio Automático_/Vídeos_/Star 1F.MP4": {
-   "tamanho": 27449097,
-   "mtimeMs": 1770978497000
-  },
-  "Anúncio Star/Câmbio Automático_/Vídeos_/Star Óleo 1F.MP4": {
-   "tamanho": 39582330,
-   "mtimeMs": 1773954281000
-  },
-  "Anúncio Star/001b94ee-9135-4f10-b37b-21a6eb9ef195.JPG": {
-   "tamanho": 1634056,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/0141f35a-b4cc-4092-9e74-5b1a84487a19.JPG": {
-   "tamanho": 1800477,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/028332c4-9f9a-4df0-9a50-e69d1264621d.JPG": {
-   "tamanho": 232210,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/040F5D48-8A59-40AE-A437-DC673865B5DA.PNG": {
-   "tamanho": 2783211,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/065d26e4-6148-49b7-96b7-3a6f86d8f724.JPG": {
-   "tamanho": 2184133,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/075e6656-ece5-4358-9075-3c68b2a75626.JPG": {
-   "tamanho": 1702288,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/0A840D89-1035-4471-A2A4-7DA62362A7F2.PNG": {
-   "tamanho": 2399194,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/0F956B52-CDDF-445D-9E53-BE3851E85B7C.PNG": {
-   "tamanho": 2879544,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/0FB78570-E59A-455F-8CEB-707F72A1A9D4.JPG": {
-   "tamanho": 2175903,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/0fc3c6aa-0d74-44c7-9765-57acfc3a893b.JPG": {
-   "tamanho": 1133345,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/1140d9f3-0e69-4a82-9cb3-cbaabef22e81.JPG": {
-   "tamanho": 1350262,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/12fb0de7-4c9c-435b-bc28-2d48c113370c.jpg": {
-   "tamanho": 1730523,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/15F229A4-D929-453A-B7D3-3CB25E81AD05.PNG": {
-   "tamanho": 2612692,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/171d9c4c-0e78-403d-ab1b-61c87b974aa5.JPG": {
-   "tamanho": 1950464,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/187b13c7-f18c-4e04-bc0e-50d8e0e602df.JPG": {
-   "tamanho": 1619862,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/1899b1c7-6987-4ac6-9a7a-402b3e152283.JPG": {
-   "tamanho": 262473,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/1AFD95BA-E25F-4369-B0AC-D0FEAE5B3CDB.JPG": {
-   "tamanho": 2028488,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/1a8c8835-0d5b-45d6-a393-0147ee80d676.JPG": {
-   "tamanho": 324872,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/1af66596-26f1-4d1a-9cbe-1629bbe646c6.JPG": {
-   "tamanho": 1595433,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/1b085c27-9081-4f3f-a544-74b78ab207eb.JPG": {
-   "tamanho": 1457376,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/1b85c7f4-9774-44b6-99c4-43966ebe5b60.JPG": {
-   "tamanho": 1875770,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/20d986c5-d1c9-4bff-bf84-59d4bc924f28.JPG": {
-   "tamanho": 1325821,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/22769057-6D12-431A-97F1-59C2D320AA4F.PNG": {
-   "tamanho": 2732381,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/22c5b4c1-7475-4ffc-aa98-9e083a938934.JPG": {
-   "tamanho": 427299,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/26622f7f-f8cb-4aef-909e-0072ec33fe3a.JPG": {
-   "tamanho": 1319099,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/29ba2d21-b6f5-48bc-937f-bca1fac81856.JPG": {
-   "tamanho": 1574929,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/2F9C5BE7-63E2-48F0-8CA6-94EB68398585.PNG": {
-   "tamanho": 2480681,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/2be2c0c9-ae37-4564-bddf-cb5089edab6c.JPG": {
-   "tamanho": 2106037,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/2c3c44a9-a1f4-4483-a4c7-dbd31fb5fb40.JPG": {
-   "tamanho": 1833402,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/32d2d66d-be75-489c-8bb2-b62937384dd9.JPG": {
-   "tamanho": 1739249,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/34ad2b8e-2467-41c7-99ce-903c6be44c36.JPG": {
-   "tamanho": 1487270,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/39cc4607-1e32-4498-8c52-39b1a45b08ad.JPG": {
-   "tamanho": 1972467,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/3CA1813D-44D6-4B17-881B-9E8FBCE19DCA.PNG": {
-   "tamanho": 2609908,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/3E108100-51A5-4E58-B336-441FEA975A3D.PNG": {
-   "tamanho": 2646280,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/44b7e56a-5887-40b5-9287-05c9380ef32e.JPG": {
-   "tamanho": 311277,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/452b5c59-9cfd-40f0-a232-69d68bb5c12c.JPG": {
-   "tamanho": 1724048,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/4aec0096-e1b0-445c-8c0f-926cb994eb01.JPG": {
-   "tamanho": 450262,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/4bf85d38-c4e0-4906-995c-fb766980ad65.JPG": {
-   "tamanho": 325051,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/4ca1959f-9fb2-4f74-98f4-4f608556eb95.JPG": {
-   "tamanho": 1651396,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/545062ad-c069-41ea-ac18-325255aab7d9.JPG": {
-   "tamanho": 1737177,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/562baf60-97e5-4ba4-96ed-78fbdcb49c8a.JPG": {
-   "tamanho": 136940,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/582F3115-95D0-4F79-885B-CC4A19306EC1.PNG": {
-   "tamanho": 2555837,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/5a1c4f12-2681-4b6c-ab47-8433220c4eb0.JPG": {
-   "tamanho": 439689,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/5d97e3db-4506-48a8-b648-4453e1f93f02.JPG": {
-   "tamanho": 1896379,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/5dccb095-0e22-45e3-bc6b-6375d9c1d36a.JPG": {
-   "tamanho": 438324,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/5e108351-e65f-49f4-a514-80404e5421e9.JPG": {
-   "tamanho": 1785848,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/600ad95e-82d4-4eaf-8f72-0c3b8a5994a0.JPG": {
-   "tamanho": 219429,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/6939ae63-68a9-42aa-85e8-2173f912de74.JPG": {
-   "tamanho": 179746,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/69509743-d43e-487e-98c7-7b5a5cf193ce.JPG": {
-   "tamanho": 426675,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/6aae6a49-5e09-46e4-a88d-bf50c73855fb.JPG": {
-   "tamanho": 1122509,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/6bdbaaa3-ab5e-4d3c-b6ee-fac77f0ea672.jpg": {
-   "tamanho": 1536965,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/6c6d0bdf-eee5-456f-9b58-2ebae5bf3a20.JPG": {
-   "tamanho": 1975101,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/6cb9f2e6-a3cc-4e46-81bc-bcd37e4fe841.JPG": {
-   "tamanho": 1437823,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/6f5acda3-1a35-4415-a3e0-d9cbca02b388.JPG": {
-   "tamanho": 263856,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/6f916e2a-acfd-415e-84e0-f19bc097716e.JPG": {
-   "tamanho": 1774315,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/704cfb5d-4d75-45cd-80eb-ff6d86cab2a1.JPG": {
-   "tamanho": 412466,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/705211a2-b594-4c15-bb66-41a72652994d.JPG": {
-   "tamanho": 1842527,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/778c664d-ae0e-48a2-8034-30cdde1d10bd.JPG": {
-   "tamanho": 1979567,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/7ff07dd9-c0ce-4136-ac43-5a81a3180fa8.JPG": {
-   "tamanho": 313082,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/80a216d1-e648-4d6b-9161-2b6d75217648.JPG": {
-   "tamanho": 271041,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/824fdd7d-e883-4f51-8b66-74d799566efc.JPG": {
-   "tamanho": 1824064,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/831ce729-dabe-436f-9186-5d584aac3e65.JPG": {
-   "tamanho": 251485,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/8401c298-c634-4585-9180-8df8c2f4fdfc.JPG": {
-   "tamanho": 1532498,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/8481a79e-544e-40da-b4e1-a4e5f84a4e33.JPG": {
-   "tamanho": 2057963,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/84b5d0ef-4f2d-4c72-aff7-0964661103e7.JPG": {
-   "tamanho": 426183,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/85c764e9-ae2b-4e20-85ce-bd6c6a307dbd.JPG": {
-   "tamanho": 258646,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/86f56ad7-ba13-4b4e-9a87-eadcd7cb54bf.JPG": {
-   "tamanho": 1982845,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/87336756-afd1-42d6-bcbb-449611be925c.JPG": {
-   "tamanho": 1634762,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/88321108-8611-41fe-8478-10f9d8176ad9.JPG": {
-   "tamanho": 449432,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/8be787e4-f7af-47d2-8150-f14795f3a596.JPG": {
-   "tamanho": 424203,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/9753563b-f258-4ca2-86fb-ed2623e79a25.JPG": {
-   "tamanho": 2034523,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/990fdbff-fe21-49aa-8046-753ca6d5cca2.JPG": {
-   "tamanho": 1412756,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/9C0FB06E-27D7-4FCA-BCE6-43734681A5B0.PNG": {
-   "tamanho": 2467702,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/9ab73409-44d7-4b7b-910c-01654e5468db.JPG": {
-   "tamanho": 2214626,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/A6C3EA13-4E1E-4914-A537-6CDCF0E4CC2D.PNG": {
-   "tamanho": 2723675,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/B6A84683-FB23-4E59-B071-09F30F4EEFAC.PNG": {
-   "tamanho": 2791454,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/CCEF4486-EFCD-42C3-8A69-14F3ED810D12.PNG": {
-   "tamanho": 2720932,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/DBD94030-DDE1-40C6-97E1-2AA4E6B02EC6.PNG": {
-   "tamanho": 2750742,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/DFC5E7EF-5728-4C46-B6BA-93575590D231.PNG": {
-   "tamanho": 2703618,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/E35F0735-AF50-4486-8C56-3588E95195AB.PNG": {
-   "tamanho": 2620401,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/F8714669-67B9-497F-8939-B758EE11CC3A.PNG": {
-   "tamanho": 2934563,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_0849.HEIC": {
-   "tamanho": 3464244,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_0959.HEIC": {
-   "tamanho": 3588596,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_0997.HEIC": {
-   "tamanho": 3904176,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_1213.HEIC": {
-   "tamanho": 3578402,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_1263.HEIC": {
-   "tamanho": 3859364,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_1364.HEIC": {
-   "tamanho": 3410706,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_1416.HEIC": {
-   "tamanho": 3757498,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_1651.HEIC": {
-   "tamanho": 3468134,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_1797.HEIC": {
-   "tamanho": 2417819,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_1798.HEIC": {
-   "tamanho": 3640701,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_1827.HEIC": {
-   "tamanho": 3905714,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_1829.HEIC": {
-   "tamanho": 3140637,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_1836.HEIC": {
-   "tamanho": 3498107,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_1839.HEIC": {
-   "tamanho": 3139814,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_1848.HEIC": {
-   "tamanho": 2181796,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_1849.HEIC": {
-   "tamanho": 3112504,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_1935.HEIC": {
-   "tamanho": 3719399,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_1937.HEIC": {
-   "tamanho": 2758538,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_1989.HEIC": {
-   "tamanho": 3483000,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_1991.HEIC": {
-   "tamanho": 3585197,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2039.HEIC": {
-   "tamanho": 3352433,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2049.HEIC": {
-   "tamanho": 3903739,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2114.HEIC": {
-   "tamanho": 3539864,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2116.HEIC": {
-   "tamanho": 3483560,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2118.HEIC": {
-   "tamanho": 3257739,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2186.HEIC": {
-   "tamanho": 3314361,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2244.HEIC": {
-   "tamanho": 3530942,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2246.HEIC": {
-   "tamanho": 2371229,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2248.HEIC": {
-   "tamanho": 2706704,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2307.HEIC": {
-   "tamanho": 3222178,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2411.HEIC": {
-   "tamanho": 3408357,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2444.HEIC": {
-   "tamanho": 3233892,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2480.HEIC": {
-   "tamanho": 3423290,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2547.HEIC": {
-   "tamanho": 3442970,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2549.HEIC": {
-   "tamanho": 2757437,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2550.HEIC": {
-   "tamanho": 3523298,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2611.HEIC": {
-   "tamanho": 3411951,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2613.HEIC": {
-   "tamanho": 3206466,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2636.HEIC": {
-   "tamanho": 3330962,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2654.HEIC": {
-   "tamanho": 2419502,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2655.HEIC": {
-   "tamanho": 2860459,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2656.HEIC": {
-   "tamanho": 3500051,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2698.HEIC": {
-   "tamanho": 2477090,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2699.HEIC": {
-   "tamanho": 3595596,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2753.HEIC": {
-   "tamanho": 1737021,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2979.HEIC": {
-   "tamanho": 3362762,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2985.HEIC": {
-   "tamanho": 1668825,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2989.HEIC": {
-   "tamanho": 3239851,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_3062.HEIC": {
-   "tamanho": 2675596,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_3065.HEIC": {
-   "tamanho": 3038275,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_3066.HEIC": {
-   "tamanho": 1432720,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_3067.HEIC": {
-   "tamanho": 2546460,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_3232.HEIC": {
-   "tamanho": 3921924,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_3251.HEIC": {
-   "tamanho": 3298079,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_3422.HEIC": {
-   "tamanho": 3677141,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_3594.HEIC": {
-   "tamanho": 3673697,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_3690.HEIC": {
-   "tamanho": 3285058,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_3693.HEIC": {
-   "tamanho": 3183812,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_3902.HEIC": {
-   "tamanho": 3127386,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_4121.HEIC": {
-   "tamanho": 2770186,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_4122.HEIC": {
-   "tamanho": 3636534,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_4232.HEIC": {
-   "tamanho": 3293679,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_4235.HEIC": {
-   "tamanho": 1758288,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_4236.HEIC": {
-   "tamanho": 3502342,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_4237.HEIC": {
-   "tamanho": 3371870,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_4254.HEIC": {
-   "tamanho": 3370720,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_4256.HEIC": {
-   "tamanho": 4012396,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_4282.HEIC": {
-   "tamanho": 2134205,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_4319.HEIC": {
-   "tamanho": 2771384,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_4322.HEIC": {
-   "tamanho": 3852268,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_4437.HEIC": {
-   "tamanho": 2804249,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_4438.HEIC": {
-   "tamanho": 2519967,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_5205.HEIC": {
-   "tamanho": 4064992,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_5950.HEIC": {
-   "tamanho": 3610225,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_5958.jpg": {
-   "tamanho": 388851,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_5988.HEIC": {
-   "tamanho": 3148041,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_5989.HEIC": {
-   "tamanho": 2879724,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_5990.HEIC": {
-   "tamanho": 1810493,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_5991.HEIC": {
-   "tamanho": 2635284,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_5992.HEIC": {
-   "tamanho": 3790225,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_6037.HEIC": {
-   "tamanho": 3344173,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_6038.HEIC": {
-   "tamanho": 3217832,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_6039.HEIC": {
-   "tamanho": 2968765,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_6040.HEIC": {
-   "tamanho": 1733276,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_6041.HEIC": {
-   "tamanho": 3030973,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/a19a8c79-6262-486c-91a8-b1e64650e52e.JPG": {
-   "tamanho": 357534,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/a639ca93-af15-4d5f-8c0d-2cf0a53087d9.JPG": {
-   "tamanho": 1902158,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/a678a4f3-5ec8-4b79-8cc5-c28e2059ca03.JPG": {
-   "tamanho": 1871960,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/a8b71098-001b-4976-b20c-e36e508e9fc0.JPG": {
-   "tamanho": 2119983,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/aa031dbc-49b7-41b3-a882-c35f1fe0454e.JPG": {
-   "tamanho": 1626434,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/ba39e076-d8ac-4558-a613-c0a2dfa8e4e8.JPG": {
-   "tamanho": 204697,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/bb86a08f-6349-4b4e-b948-124a7bb34770.JPG": {
-   "tamanho": 384747,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/c24bcf72-f911-4905-b5c4-b5479ad923c0.JPG": {
-   "tamanho": 1842199,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/c306f18f-6efd-4f3e-9e13-12886a9e7832.JPG": {
-   "tamanho": 2239923,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/c9099511-d135-4e65-8262-29ab5654a3f4.JPG": {
-   "tamanho": 1840112,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/d94c0b9f-e834-4471-bf05-0e5fbe0cb33e.JPG": {
-   "tamanho": 133072,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/da4c7c33-4bb3-4ac1-9d90-44288ee96081.JPG": {
-   "tamanho": 2158588,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/db17a0dd-ff7d-4e21-8e75-9a141cb3791f.JPG": {
-   "tamanho": 1718539,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/db8835f0-5452-4445-9d11-244e9b8b17de.JPG": {
-   "tamanho": 226298,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/e0d157ef-bd43-4198-9989-8bfea1dd5dd0.JPG": {
-   "tamanho": 1107954,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/e1041a3d-817e-45ea-8248-0d45bd3dd343.JPG": {
-   "tamanho": 382109,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/e3611ca5-dcf6-40b4-8ca4-d262341889d3.JPG": {
-   "tamanho": 1973044,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/e4420b46-4fc4-4965-bb85-cc877c4c7e58.JPG": {
-   "tamanho": 428739,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/e70b034c-26ab-4d40-b41c-df40e339916e.JPG": {
-   "tamanho": 1655910,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/e86ffea0-d7d3-49ad-b40c-0718cda8e727.JPG": {
-   "tamanho": 1741567,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/ed9ba467-5bea-4893-9abd-98f806d2cabf.JPG": {
-   "tamanho": 1171758,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/f0521c06-a0c9-4856-9a85-d3f95b3196bf.JPG": {
-   "tamanho": 1569248,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/f76b3ebe-c58e-404a-861e-c49d32bd12ae.JPG": {
-   "tamanho": 336394,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/fa66e202-2bfd-4696-85ca-0f90e380a68e.JPG": {
-   "tamanho": 2273120,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/fe78ad7b-0d86-403f-882c-5cb1c6d3d402.JPG": {
-   "tamanho": 1811717,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/538E824A-C2CD-4F10-975F-46D9C59DA7C5.MOV": {
-   "tamanho": 76203154,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/BD0E5F71-B4B1-4E33-8AEF-1141F61032A9.MP4": {
-   "tamanho": 23243905,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_0881.MOV": {
-   "tamanho": 48920280,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_0883.MOV": {
-   "tamanho": 30597582,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_0889.MOV": {
-   "tamanho": 36387950,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2413.MOV": {
-   "tamanho": 51423355,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_3082.MOV": {
-   "tamanho": 75326093,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_3303.MOV": {
-   "tamanho": 50336734,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_3969.MOV": {
-   "tamanho": 89129550,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_1938.MOV": {
-   "tamanho": 14214661,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_2548.MOV": {
-   "tamanho": 10316877,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/810bf6c6f8014045ba126bb048d3b824.MOV": {
-   "tamanho": 1130580,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/954d019a-18c3-4a46-9158-782f25a5ca65.MP4": {
-   "tamanho": 3385988,
-   "mtimeMs": null,
-   "registrado_em": "2026-10-24"
-  },
-  "Anúncio Star/IMG_4665.MOV": {
-   "tamanho": 62963820,
-   "mtimeMs": 1792632083160,
-   "registrado_em": "2026-10-24"
+  "baseline_pendente": false,
+  "observacao": "Na primeira execução da produção diária, liste a pasta inteira e grave em 'conhecidos' todos os arquivos que já existem (caminho relativo, tamanho, mtimeMs). Depois, arquivo NOVO = caminho que não está em 'conhecidos'. Atualize 'usados' sempre que usar um arquivo. | 24/10: arquivos soltos de 21/10 registrados (mtimeMs null = registrado sem mtime do notebook); descrição de cada um em \"catalogo\".",
+  "pasta": "C:\\Users\\Luiz Fernando\\OneDrive\\Área de Trabalho\\Fotos Star",
+  "usados": {
+    "Anúncio Star/Câmbio Automático_/Câmbio Mercedes C200/IMG_0878.HEIC": "lote1 story + carrossel",
+    "Anúncio Star/Câmbio Automático_/Câmbio BMW X1/IMG_0643.HEIC": "lote1 story + carrossel",
+    "Anúncio Star/Câmbio Automático_/Câmbio Audi Q5/IMG_0233.HEIC": "lote1 story + carrossel",
+    "Anúncio Star/Câmbio Automático_/Câmbio HRV/IMG_0165.HEIC": "lote1 story + carrossel + post equipe",
+    "Anúncio Star/Câmbio Automático_/Câmbio TR4/IMG_1645.HEIC": "lote1 story + carrossel",
+    "Anúncio Star/Câmbio Automático_/Câmbio Renegade/IMG_0175.HEIC": "lote1 story + carrossel",
+    "Anúncio Star/Câmbio Automático_/Câmbio 208/IMG_0660.HEIC": "lote1 story + carrossel",
+    "Anúncio Star/Câmbio Automático_/Câmbio Kicks/IMG_0656.HEIC": "lote2 story + carrossel sinais",
+    "Anúncio Star/Câmbio Automático_/Câmbio Audi Q3/IMG_0795.HEIC": "lote2 story + carrossel sinais",
+    "Anúncio Star/Câmbio Automático_/Câmbio C4 Pallas/IMG_0598.HEIC": "lote2 story + carrossel sinais",
+    "Anúncio Star/Câmbio Automático_/Câmbio CRV/IMG_0021.HEIC": "lote2 story + carrossel sinais",
+    "Anúncio Star/Câmbio Automático_/Câmbio Corolla/IMG_0554.HEIC": "lote2 story + carrossel sinais",
+    "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/IMG_0471.HEIC": "visto, modelo não identificado com certeza (parece Cruze): confirmar antes de nomear",
+    "Anúncio Star/Pneus Crystone/IMG_0283.HEIC": "lote1 story pneus",
+    "Anúncio Star/IMG_1678.HEIC": "NÃO USAR: foto da equipe no carnaval (Fernando recusou)",
+    "Anúncio Star/Câmbio Automático_/Vídeos_/Star 1F.MP4": "lote1 reel João + lote2 story citação",
+    "Anúncio Star/Câmbio Automático_/Vídeos_/Star Óleo 1F.MP4": "lote2 reel Alexandre",
+    "Anúncio Star/Star 1F (feedback).MP4": "lote2 reel Lúcio",
+    "Anúncio Star/Star 1F.MP4": "lote2 reel dica radiador",
+    "Anúncio Star/3A4F854B070AE6FD4648.jpg": "lote-2026-10-22 story Honda Civic (preparado, ainda sem data no Buffer; Civic com capa de placa da Star)",
+    "Anúncio Star/3A33163ED6C218FB448C.jpg": "lote-2026-10-22 story Chevrolet (modelo não confirmado: parece Cobalt; placa borrada; preparado, ainda sem data no Buffer)",
+    "Anúncio Star/1899b1c7-6987-4ac6-9a7a-402b3e152283.JPG": "trends: carrossel Halloween slide 3 (31/10)",
+    "Anúncio Star/IMG_6037.HEIC": "trends: fundo borrado do carrossel Halloween (pode usar de novo nítido)",
+    "Anúncio Star/Câmbio Automático_/Vídeos_/Star - CRV oléo do câmbio.MP4": "trends: b-roll 10-26 s no reel 'Dinheiro não compra felicidade' (29/10); o vídeo já é editado com legenda e fala do Fernando, ainda dá para um reel próprio depois de 14 dias",
+    "Anúncio Star/IMG_0959.HEIC": "lote-2026-10-24 story Já passou aqui Renault Captur",
+    "Anúncio Star/IMG_1213.HEIC": "lote-2026-10-24 story Já passou aqui Honda Fit",
+    "Anúncio Star/IMG_2636.HEIC": "lote-2026-10-24 story Já passou aqui Jaguar F-Pace",
+    "Anúncio Star/IMG_1848.HEIC": "lote-2026-10-24 story bastidor filtro velho x novo (29/10)",
+    "Anúncio Star/IMG_2547.HEIC": "lote-2026-10-24 fundo do story dica \"óleo do câmbio não é eterno\" (30/10)",
+    "Anúncio Star/Pneus Crystone/IMG_0291.HEIC": "lote-2026-10-24 story pneus Crystone (31/10)",
+    "Anúncio Star/IMG_4665.MOV": "anúncio Taquara (anuncio_taquara_jumpcut.py)",
+    "Anúncio Star/954d019a-18c3-4a46-9158-782f25a5ca65.MP4": "versão editada do anúncio Taquara: não repostar"
+  },
+  "regras": [
+    "JPGs com nome em UUID dentro de Câmbio Automático_ costumam ter figurinhas antigas do Instagram por cima (\"Parcelamos em até 10x\", nome do carro): prefira o HEIC da mesma pasta; use o JPG só se não houver alternativa e se dá para recortar sem as figurinhas.",
+    "Artes antigas prontas (flyers, artes de pneu com medida, logo solto) não viram post: servem só de referência.",
+    "Fotos com nome tipo 3A33163ED6C218FB448C.jpg (vindas do WhatsApp) são pequenas (720 px): servem para story, evite feed."
+  ],
+  "conhecidos": {
+    "Anúncio Star/16c1a29e-7011-4c84-af8e-3507ba13c9ec.jpg": {
+      "tamanho": 35508,
+      "mtimeMs": 1761233531000
+    },
+    "Anúncio Star/31A2D20D-54E5-4C73-96F3-0AE39FC38250.JPG": {
+      "tamanho": 2868228,
+      "mtimeMs": 1759953092000
+    },
+    "Anúncio Star/31b14cd2-39dd-40e8-b057-f23033b06286.JPG": {
+      "tamanho": 272188,
+      "mtimeMs": 1759502322000
+    },
+    "Anúncio Star/3A33163ED6C218FB448C.jpg": {
+      "tamanho": 165034,
+      "mtimeMs": 1792611010750
+    },
+    "Anúncio Star/3A4F854B070AE6FD4648.jpg": {
+      "tamanho": 197766,
+      "mtimeMs": 1792611046971
+    },
+    "Anúncio Star/3BECEB16-7D6F-4F25-A764-6331C64E212A.JPG": {
+      "tamanho": 1778622,
+      "mtimeMs": 1769614553000
+    },
+    "Anúncio Star/8c6f59e4-759f-4efb-a90c-9810dbfaea8b.JPG": {
+      "tamanho": 399991,
+      "mtimeMs": 1759408592000
+    },
+    "Anúncio Star/Caricatura Fernando.PNG": {
+      "tamanho": 2611042,
+      "mtimeMs": 1770731514000
+    },
+    "Anúncio Star/EDF33FDC-D028-4ECE-B68C-1A96E25BB994.JPG": {
+      "tamanho": 2015244,
+      "mtimeMs": 1768065871000
+    },
+    "Anúncio Star/IMG_0209.HEIC": {
+      "tamanho": 2840230,
+      "mtimeMs": 1764171273000
+    },
+    "Anúncio Star/IMG_0431.HEIC": {
+      "tamanho": 3235434,
+      "mtimeMs": 1765198617000
+    },
+    "Anúncio Star/IMG_0433.HEIC": {
+      "tamanho": 3239408,
+      "mtimeMs": 1765198681000
+    },
+    "Anúncio Star/IMG_1678.HEIC": {
+      "tamanho": 3595231,
+      "mtimeMs": 1771004744000
+    },
+    "Anúncio Star/IMG_1789.MOV": {
+      "tamanho": 132327913,
+      "mtimeMs": 1771678615000
+    },
+    "Anúncio Star/IMG_4865.HEIC": {
+      "tamanho": 1933944,
+      "mtimeMs": 1730754020000
+    },
+    "Anúncio Star/IMG_6339.HEIC": {
+      "tamanho": 2227967,
+      "mtimeMs": 1692284415000
+    },
+    "Anúncio Star/IMG_8376.JPG": {
+      "tamanho": 34315,
+      "mtimeMs": 1753189879000
+    },
+    "Anúncio Star/IMG_9410.HEIC": {
+      "tamanho": 2071149,
+      "mtimeMs": 1759953092000
+    },
+    "Anúncio Star/IMG_9828.HEIC": {
+      "tamanho": 2893819,
+      "mtimeMs": 1761930543000
+    },
+    "Anúncio Star/Star 1F (feedback).MP4": {
+      "tamanho": 45940981,
+      "mtimeMs": 1770841843000
+    },
+    "Anúncio Star/Star 1F.MP4": {
+      "tamanho": 15531314,
+      "mtimeMs": 1771849655000
+    },
+    "Anúncio Star/Pneus Crystone/0DB610ED-5AE3-4D7B-8FA0-A4B53511DBA9.JPG": {
+      "tamanho": 1766314,
+      "mtimeMs": 1762805630000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_0283.HEIC": {
+      "tamanho": 3947511,
+      "mtimeMs": 1764431764000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_0284.HEIC": {
+      "tamanho": 3178621,
+      "mtimeMs": 1764431789000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_0285.HEIC": {
+      "tamanho": 3380569,
+      "mtimeMs": 1764431934000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_0286.HEIC": {
+      "tamanho": 3078506,
+      "mtimeMs": 1764431942000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_0287.HEIC": {
+      "tamanho": 3390888,
+      "mtimeMs": 1764432082000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_0288.HEIC": {
+      "tamanho": 3108627,
+      "mtimeMs": 1764432089000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_0289.HEIC": {
+      "tamanho": 3365247,
+      "mtimeMs": 1764432208000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_0290.HEIC": {
+      "tamanho": 2947283,
+      "mtimeMs": 1764432214000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_0291.HEIC": {
+      "tamanho": 3288067,
+      "mtimeMs": 1764432331000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_0292.HEIC": {
+      "tamanho": 2998543,
+      "mtimeMs": 1764432340000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_0293.HEIC": {
+      "tamanho": 3263876,
+      "mtimeMs": 1764432456000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_0294.HEIC": {
+      "tamanho": 2877099,
+      "mtimeMs": 1764432462000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_0295.HEIC": {
+      "tamanho": 3581534,
+      "mtimeMs": 1764432577000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_0296.HEIC": {
+      "tamanho": 3178739,
+      "mtimeMs": 1764432583000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_0297.HEIC": {
+      "tamanho": 3415274,
+      "mtimeMs": 1764432682000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_0298.HEIC": {
+      "tamanho": 3244093,
+      "mtimeMs": 1764432690000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_0299.HEIC": {
+      "tamanho": 3675621,
+      "mtimeMs": 1764432938000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_0300.HEIC": {
+      "tamanho": 3397985,
+      "mtimeMs": 1764432944000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_0828.JPG": {
+      "tamanho": 311947,
+      "mtimeMs": 1767463293000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_9049.JPG": {
+      "tamanho": 310524,
+      "mtimeMs": 1759419953000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_9050.JPG": {
+      "tamanho": 310553,
+      "mtimeMs": 1759419953000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_9051.JPG": {
+      "tamanho": 312077,
+      "mtimeMs": 1759419953000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_9052.JPG": {
+      "tamanho": 310321,
+      "mtimeMs": 1759419953000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_9053.JPG": {
+      "tamanho": 310644,
+      "mtimeMs": 1759419953000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_9054.JPG": {
+      "tamanho": 309848,
+      "mtimeMs": 1759419953000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_9055.JPG": {
+      "tamanho": 310995,
+      "mtimeMs": 1759419953000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_9056.JPG": {
+      "tamanho": 310041,
+      "mtimeMs": 1759419953000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_9057.JPG": {
+      "tamanho": 310164,
+      "mtimeMs": 1759419953000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_9058.JPG": {
+      "tamanho": 310749,
+      "mtimeMs": 1759419953000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_9059.JPG": {
+      "tamanho": 311215,
+      "mtimeMs": 1759419954000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_9267.JPG": {
+      "tamanho": 404958,
+      "mtimeMs": 1759419953000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_9268.JPG": {
+      "tamanho": 309654,
+      "mtimeMs": 1759419953000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_9270.JPG": {
+      "tamanho": 310430,
+      "mtimeMs": 1759419953000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_9271.JPG": {
+      "tamanho": 311008,
+      "mtimeMs": 1759419953000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_9283.JPG": {
+      "tamanho": 311082,
+      "mtimeMs": 1759419954000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_9284.JPG": {
+      "tamanho": 310101,
+      "mtimeMs": 1759419954000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_9285.JPG": {
+      "tamanho": 311207,
+      "mtimeMs": 1759419954000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_9800.HEIC": {
+      "tamanho": 2721395,
+      "mtimeMs": 1761764203000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_9801.HEIC": {
+      "tamanho": 2682657,
+      "mtimeMs": 1761764369000
+    },
+    "Anúncio Star/Pneus Crystone/IMG_9802.HEIC": {
+      "tamanho": 2767554,
+      "mtimeMs": 1761764501000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio 208/1D0F76B3-4AE2-483A-9B4D-F524903B965E.JPG": {
+      "tamanho": 821979,
+      "mtimeMs": 1774109849000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio 208/IMG_0660.HEIC": {
+      "tamanho": 3488490,
+      "mtimeMs": 1766242979000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio 208/IMG_0661.HEIC": {
+      "tamanho": 3060442,
+      "mtimeMs": 1766242988000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Audi Q3/31E6A06D-8454-45B8-93BD-28A13F4F4B65.JPG": {
+      "tamanho": 536126,
+      "mtimeMs": 1775324870000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Audi Q3/885AE907-141A-4398-B0C8-565E8DC8A88B.JPG": {
+      "tamanho": 1058396,
+      "mtimeMs": 1767106088000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Audi Q3/IMG_0794.HEIC": {
+      "tamanho": 2791698,
+      "mtimeMs": 1767104595000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Audi Q3/IMG_0795.HEIC": {
+      "tamanho": 4080465,
+      "mtimeMs": 1767106088000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Audi Q3/IMG_0796.HEIC": {
+      "tamanho": 4079228,
+      "mtimeMs": 1767106094000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Audi Q5/EF0F345D-545A-4DDF-A1C8-7C8C6EB471CD.JPG": {
+      "tamanho": 2621564,
+      "mtimeMs": 1764253854000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Audi Q5/IMG_0231.HEIC": {
+      "tamanho": 2273088,
+      "mtimeMs": 1764249883000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Audi Q5/IMG_0233.HEIC": {
+      "tamanho": 3064242,
+      "mtimeMs": 1764253854000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Audi Q5/IMG_0234.HEIC": {
+      "tamanho": 3983727,
+      "mtimeMs": 1764253866000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Audi Q5/IMG_0235.HEIC": {
+      "tamanho": 3978223,
+      "mtimeMs": 1764253875000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio BMW X1/D46E3D7B-00BB-4C02-B294-22D15A20173B.JPG": {
+      "tamanho": 817113,
+      "mtimeMs": 1771277359000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio BMW X1/IMG_0643.HEIC": {
+      "tamanho": 3459680,
+      "mtimeMs": 1766167584000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio BMW X1/IMG_0644.HEIC": {
+      "tamanho": 3395343,
+      "mtimeMs": 1766167591000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio BMW X1/IMG_0647.MOV": {
+      "tamanho": 154827368,
+      "mtimeMs": 1766168267000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio BMW X1/IMG_0650.MOV": {
+      "tamanho": 197665498,
+      "mtimeMs": 1766168360000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio BMW X1/IMG_0651.MOV": {
+      "tamanho": 128866892,
+      "mtimeMs": 1766168447000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio C4 Pallas/D6AD2E20-271E-427E-B6E9-6B325EBCB9ED.JPG": {
+      "tamanho": 827111,
+      "mtimeMs": 1772813083000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio C4 Pallas/IMG_0598.HEIC": {
+      "tamanho": 3381263,
+      "mtimeMs": 1765904616000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio C4 Pallas/IMG_0599.HEIC": {
+      "tamanho": 3438486,
+      "mtimeMs": 1765904624000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/016BEEA3-DA83-436F-AA09-EA5825F77F0A.JPG": {
+      "tamanho": 860815,
+      "mtimeMs": 1773356033000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/37e98a8d-7d91-4d2f-8dd2-225bbac75806.JPG": {
+      "tamanho": 396790,
+      "mtimeMs": 1777036734000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/4006e361-ecff-43a6-9e63-9f15f35c9fe2.JPG": {
+      "tamanho": 255266,
+      "mtimeMs": 1780661606000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/4674de57-2b90-4f24-a352-41219320cd27.JPG": {
+      "tamanho": 226049,
+      "mtimeMs": 1774702473000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/506e301f-2d91-4077-95cf-4e0d5da3bc30.JPG": {
+      "tamanho": 407577,
+      "mtimeMs": 1777383947000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/7128e895-3177-401b-99b9-fcb0f9c75ade.JPG": {
+      "tamanho": 310253,
+      "mtimeMs": 1774365373000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/82fa9af4-da4d-4b6f-bc40-35b615778c7c.JPG": {
+      "tamanho": 1973384,
+      "mtimeMs": 1781957962000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/85c9b0ce-5207-44d4-9a6c-e4bf25261203.JPG": {
+      "tamanho": 1679369,
+      "mtimeMs": 1781962031000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/D2671D47-D0E2-4E43-AB1F-BE24C85B9134.JPG": {
+      "tamanho": 2854581,
+      "mtimeMs": 1765377554000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/d7a372fa-e5c2-4721-969c-4cd19bdd10e6.JPG": {
+      "tamanho": 1797480,
+      "mtimeMs": 1781697847000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/f4734591-8060-4bcf-b265-57eaf10fc08c.JPG": {
+      "tamanho": 411999,
+      "mtimeMs": 1777379170000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/f6058e40-65f0-4739-b007-fabc9fca0c43.JPG": {
+      "tamanho": 224524,
+      "mtimeMs": 1774700431000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/IMG_0471.HEIC": {
+      "tamanho": 3316558,
+      "mtimeMs": 1765377554000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/IMG_0472.HEIC": {
+      "tamanho": 3283402,
+      "mtimeMs": 1765377566000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/IMG_0662.HEIC": {
+      "tamanho": 3546826,
+      "mtimeMs": 1766246446000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/IMG_0663.HEIC": {
+      "tamanho": 3307527,
+      "mtimeMs": 1766246454000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/IMG_0887.HEIC": {
+      "tamanho": 3882077,
+      "mtimeMs": 1767892665000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/IMG_0990.HEIC": {
+      "tamanho": 3716766,
+      "mtimeMs": 1768412352000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/IMG_1893.HEIC": {
+      "tamanho": 3959784,
+      "mtimeMs": 1772278299000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Chevrolet/IMG_2235.HEIC": {
+      "tamanho": 4069079,
+      "mtimeMs": 1774027897000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Corolla/IMG_0554.HEIC": {
+      "tamanho": 3885766,
+      "mtimeMs": 1765629530000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Corolla/IMG_0555.HEIC": {
+      "tamanho": 3930712,
+      "mtimeMs": 1765629534000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Corolla/IMG_0556.HEIC": {
+      "tamanho": 3918846,
+      "mtimeMs": 1765629543000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Corolla/IMG_0557.HEIC": {
+      "tamanho": 3006657,
+      "mtimeMs": 1765629630000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio CRV/8B579253-BF2A-444B-9E2B-74A77457EECD.JPG": {
+      "tamanho": 2872097,
+      "mtimeMs": 1763143953000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio CRV/IMG_0021.HEIC": {
+      "tamanho": 3452489,
+      "mtimeMs": 1763143953000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio HRV/09C72ADF-2AA3-4787-A8A3-5035C9968AC8.JPG": {
+      "tamanho": 540752,
+      "mtimeMs": 1775877974000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio HRV/AA8D3AB2-6C75-4EE2-9AF9-33C9201C4891.JPG": {
+      "tamanho": 737566,
+      "mtimeMs": 1775877974000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio HRV/B98D7973-20D0-4E2E-B7F1-F550898F6945.JPG": {
+      "tamanho": 785165,
+      "mtimeMs": 1775877974000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio HRV/IMG_0165.HEIC": {
+      "tamanho": 3533784,
+      "mtimeMs": 1764009047000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio HRV/IMG_0166.HEIC": {
+      "tamanho": 2544692,
+      "mtimeMs": 1764010696000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio HRV/IMG_0167.HEIC": {
+      "tamanho": 2203331,
+      "mtimeMs": 1764015425000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio HRV/IMG_1632.HEIC": {
+      "tamanho": 3461194,
+      "mtimeMs": 1770903420000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio HRV/IMG_1633.HEIC": {
+      "tamanho": 3455851,
+      "mtimeMs": 1770903427000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio HRV/IMG_1636.HEIC": {
+      "tamanho": 2651636,
+      "mtimeMs": 1770904265000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio HRV/IMG_1642.HEIC": {
+      "tamanho": 2050929,
+      "mtimeMs": 1770906836000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Kicks/15D4CE0D-6EAE-4AA5-804E-8D64FDCF2CBF.JPG": {
+      "tamanho": 796238,
+      "mtimeMs": 1774834329000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Kicks/672BD925-2C1B-41CC-9F0A-EBE79BB477E4.JPG": {
+      "tamanho": 595457,
+      "mtimeMs": 1774834329000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Kicks/A9AC987B-CAB5-400B-908F-C4C7E86774F5.JPG": {
+      "tamanho": 885305,
+      "mtimeMs": 1774834329000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Kicks/IMG_0656.HEIC": {
+      "tamanho": 3580692,
+      "mtimeMs": 1766233451000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Kicks/IMG_0657.HEIC": {
+      "tamanho": 3273048,
+      "mtimeMs": 1766233460000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Kicks/IMG_0658.HEIC": {
+      "tamanho": 3253563,
+      "mtimeMs": 1766236203000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Mercedes A200/0caee111-2362-442e-a55c-197bc8723400.JPG": {
+      "tamanho": 271871,
+      "mtimeMs": 1764105264000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Mercedes A200/56F16C46-17EF-4AB9-A661-7C9BD8550DDB.JPG": {
+      "tamanho": 255276,
+      "mtimeMs": 1765321301000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Mercedes A200/933CE6F5-F5AC-4F41-B57C-22F670DEC656.JPG": {
+      "tamanho": 416813,
+      "mtimeMs": 1765321301000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Mercedes A200/D71BB183-55D4-40A7-A179-CB2240202F54.JPG": {
+      "tamanho": 323262,
+      "mtimeMs": 1765321301000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Mercedes A200/e7553933-c299-4951-a556-d66629268607.JPG": {
+      "tamanho": 204010,
+      "mtimeMs": 1764105264000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Mercedes A200/f9c6b23b-2748-43f2-9c18-dfd599c0061b.JPG": {
+      "tamanho": 330175,
+      "mtimeMs": 1764105281000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Mercedes C200/360C5896-ABF5-47E6-9E40-DEBD901E3FBF.JPG": {
+      "tamanho": 3042062,
+      "mtimeMs": 1767875808000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Mercedes C200/IMG_0878.HEIC": {
+      "tamanho": 3737226,
+      "mtimeMs": 1767875808000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Mercedes C200/IMG_0879.HEIC": {
+      "tamanho": 3742776,
+      "mtimeMs": 1767875816000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Renegade/10A9E02D-CAA4-48D0-97C3-DA0C07AD501D.JPG": {
+      "tamanho": 2751600,
+      "mtimeMs": 1764078157000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio Renegade/IMG_0175.HEIC": {
+      "tamanho": 3947658,
+      "mtimeMs": 1764078157000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio TR4/5076AD18-AAEE-4854-A106-E4CA58594825.JPG": {
+      "tamanho": 676214,
+      "mtimeMs": 1776620173000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio TR4/AD4BE9B6-4F5F-4B96-8231-F6829820E42C.JPG": {
+      "tamanho": 789521,
+      "mtimeMs": 1776620173000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio TR4/E3290047-8EA3-48FF-B8AE-9F405CB1B38F.JPG": {
+      "tamanho": 604160,
+      "mtimeMs": 1776620173000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio TR4/IMG_1645.HEIC": {
+      "tamanho": 3537805,
+      "mtimeMs": 1770916792000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio TR4/IMG_1646.HEIC": {
+      "tamanho": 2873623,
+      "mtimeMs": 1770916800000
+    },
+    "Anúncio Star/Câmbio Automático_/Câmbio TR4/IMG_1647.HEIC": {
+      "tamanho": 2962487,
+      "mtimeMs": 1770917806000
+    },
+    "Anúncio Star/Câmbio Automático_/Vídeos_/IMG_1653.MOV": {
+      "tamanho": 322092390,
+      "mtimeMs": 1770924451000
+    },
+    "Anúncio Star/Câmbio Automático_/Vídeos_/IMG_2188.MOV": {
+      "tamanho": 324964604,
+      "mtimeMs": 1773839929000
+    },
+    "Anúncio Star/Câmbio Automático_/Vídeos_/Star - CRV oléo do câmbio.MP4": {
+      "tamanho": 103437290,
+      "mtimeMs": 1766341356000
+    },
+    "Anúncio Star/Câmbio Automático_/Vídeos_/Star 1F.MP4": {
+      "tamanho": 27449097,
+      "mtimeMs": 1770978497000
+    },
+    "Anúncio Star/Câmbio Automático_/Vídeos_/Star Óleo 1F.MP4": {
+      "tamanho": 39582330,
+      "mtimeMs": 1773954281000
+    },
+    "Anúncio Star/001b94ee-9135-4f10-b37b-21a6eb9ef195.JPG": {
+      "tamanho": 1634056,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/0141f35a-b4cc-4092-9e74-5b1a84487a19.JPG": {
+      "tamanho": 1800477,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/028332c4-9f9a-4df0-9a50-e69d1264621d.JPG": {
+      "tamanho": 232210,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/040F5D48-8A59-40AE-A437-DC673865B5DA.PNG": {
+      "tamanho": 2783211,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/065d26e4-6148-49b7-96b7-3a6f86d8f724.JPG": {
+      "tamanho": 2184133,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/075e6656-ece5-4358-9075-3c68b2a75626.JPG": {
+      "tamanho": 1702288,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/0A840D89-1035-4471-A2A4-7DA62362A7F2.PNG": {
+      "tamanho": 2399194,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/0F956B52-CDDF-445D-9E53-BE3851E85B7C.PNG": {
+      "tamanho": 2879544,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/0FB78570-E59A-455F-8CEB-707F72A1A9D4.JPG": {
+      "tamanho": 2175903,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/0fc3c6aa-0d74-44c7-9765-57acfc3a893b.JPG": {
+      "tamanho": 1133345,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/1140d9f3-0e69-4a82-9cb3-cbaabef22e81.JPG": {
+      "tamanho": 1350262,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/12fb0de7-4c9c-435b-bc28-2d48c113370c.jpg": {
+      "tamanho": 1730523,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/15F229A4-D929-453A-B7D3-3CB25E81AD05.PNG": {
+      "tamanho": 2612692,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/171d9c4c-0e78-403d-ab1b-61c87b974aa5.JPG": {
+      "tamanho": 1950464,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/187b13c7-f18c-4e04-bc0e-50d8e0e602df.JPG": {
+      "tamanho": 1619862,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/1899b1c7-6987-4ac6-9a7a-402b3e152283.JPG": {
+      "tamanho": 262473,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/1AFD95BA-E25F-4369-B0AC-D0FEAE5B3CDB.JPG": {
+      "tamanho": 2028488,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/1a8c8835-0d5b-45d6-a393-0147ee80d676.JPG": {
+      "tamanho": 324872,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/1af66596-26f1-4d1a-9cbe-1629bbe646c6.JPG": {
+      "tamanho": 1595433,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/1b085c27-9081-4f3f-a544-74b78ab207eb.JPG": {
+      "tamanho": 1457376,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/1b85c7f4-9774-44b6-99c4-43966ebe5b60.JPG": {
+      "tamanho": 1875770,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/20d986c5-d1c9-4bff-bf84-59d4bc924f28.JPG": {
+      "tamanho": 1325821,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/22769057-6D12-431A-97F1-59C2D320AA4F.PNG": {
+      "tamanho": 2732381,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/22c5b4c1-7475-4ffc-aa98-9e083a938934.JPG": {
+      "tamanho": 427299,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/26622f7f-f8cb-4aef-909e-0072ec33fe3a.JPG": {
+      "tamanho": 1319099,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/29ba2d21-b6f5-48bc-937f-bca1fac81856.JPG": {
+      "tamanho": 1574929,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/2F9C5BE7-63E2-48F0-8CA6-94EB68398585.PNG": {
+      "tamanho": 2480681,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/2be2c0c9-ae37-4564-bddf-cb5089edab6c.JPG": {
+      "tamanho": 2106037,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/2c3c44a9-a1f4-4483-a4c7-dbd31fb5fb40.JPG": {
+      "tamanho": 1833402,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/32d2d66d-be75-489c-8bb2-b62937384dd9.JPG": {
+      "tamanho": 1739249,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/34ad2b8e-2467-41c7-99ce-903c6be44c36.JPG": {
+      "tamanho": 1487270,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/39cc4607-1e32-4498-8c52-39b1a45b08ad.JPG": {
+      "tamanho": 1972467,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/3CA1813D-44D6-4B17-881B-9E8FBCE19DCA.PNG": {
+      "tamanho": 2609908,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/3E108100-51A5-4E58-B336-441FEA975A3D.PNG": {
+      "tamanho": 2646280,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/44b7e56a-5887-40b5-9287-05c9380ef32e.JPG": {
+      "tamanho": 311277,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/452b5c59-9cfd-40f0-a232-69d68bb5c12c.JPG": {
+      "tamanho": 1724048,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/4aec0096-e1b0-445c-8c0f-926cb994eb01.JPG": {
+      "tamanho": 450262,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/4bf85d38-c4e0-4906-995c-fb766980ad65.JPG": {
+      "tamanho": 325051,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/4ca1959f-9fb2-4f74-98f4-4f608556eb95.JPG": {
+      "tamanho": 1651396,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/545062ad-c069-41ea-ac18-325255aab7d9.JPG": {
+      "tamanho": 1737177,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/562baf60-97e5-4ba4-96ed-78fbdcb49c8a.JPG": {
+      "tamanho": 136940,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/582F3115-95D0-4F79-885B-CC4A19306EC1.PNG": {
+      "tamanho": 2555837,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/5a1c4f12-2681-4b6c-ab47-8433220c4eb0.JPG": {
+      "tamanho": 439689,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/5d97e3db-4506-48a8-b648-4453e1f93f02.JPG": {
+      "tamanho": 1896379,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/5dccb095-0e22-45e3-bc6b-6375d9c1d36a.JPG": {
+      "tamanho": 438324,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/5e108351-e65f-49f4-a514-80404e5421e9.JPG": {
+      "tamanho": 1785848,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/600ad95e-82d4-4eaf-8f72-0c3b8a5994a0.JPG": {
+      "tamanho": 219429,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/6939ae63-68a9-42aa-85e8-2173f912de74.JPG": {
+      "tamanho": 179746,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/69509743-d43e-487e-98c7-7b5a5cf193ce.JPG": {
+      "tamanho": 426675,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/6aae6a49-5e09-46e4-a88d-bf50c73855fb.JPG": {
+      "tamanho": 1122509,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/6bdbaaa3-ab5e-4d3c-b6ee-fac77f0ea672.jpg": {
+      "tamanho": 1536965,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/6c6d0bdf-eee5-456f-9b58-2ebae5bf3a20.JPG": {
+      "tamanho": 1975101,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/6cb9f2e6-a3cc-4e46-81bc-bcd37e4fe841.JPG": {
+      "tamanho": 1437823,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/6f5acda3-1a35-4415-a3e0-d9cbca02b388.JPG": {
+      "tamanho": 263856,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/6f916e2a-acfd-415e-84e0-f19bc097716e.JPG": {
+      "tamanho": 1774315,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/704cfb5d-4d75-45cd-80eb-ff6d86cab2a1.JPG": {
+      "tamanho": 412466,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/705211a2-b594-4c15-bb66-41a72652994d.JPG": {
+      "tamanho": 1842527,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/778c664d-ae0e-48a2-8034-30cdde1d10bd.JPG": {
+      "tamanho": 1979567,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/7ff07dd9-c0ce-4136-ac43-5a81a3180fa8.JPG": {
+      "tamanho": 313082,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/80a216d1-e648-4d6b-9161-2b6d75217648.JPG": {
+      "tamanho": 271041,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/824fdd7d-e883-4f51-8b66-74d799566efc.JPG": {
+      "tamanho": 1824064,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/831ce729-dabe-436f-9186-5d584aac3e65.JPG": {
+      "tamanho": 251485,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/8401c298-c634-4585-9180-8df8c2f4fdfc.JPG": {
+      "tamanho": 1532498,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/8481a79e-544e-40da-b4e1-a4e5f84a4e33.JPG": {
+      "tamanho": 2057963,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/84b5d0ef-4f2d-4c72-aff7-0964661103e7.JPG": {
+      "tamanho": 426183,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/85c764e9-ae2b-4e20-85ce-bd6c6a307dbd.JPG": {
+      "tamanho": 258646,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/86f56ad7-ba13-4b4e-9a87-eadcd7cb54bf.JPG": {
+      "tamanho": 1982845,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/87336756-afd1-42d6-bcbb-449611be925c.JPG": {
+      "tamanho": 1634762,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/88321108-8611-41fe-8478-10f9d8176ad9.JPG": {
+      "tamanho": 449432,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/8be787e4-f7af-47d2-8150-f14795f3a596.JPG": {
+      "tamanho": 424203,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/9753563b-f258-4ca2-86fb-ed2623e79a25.JPG": {
+      "tamanho": 2034523,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/990fdbff-fe21-49aa-8046-753ca6d5cca2.JPG": {
+      "tamanho": 1412756,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/9C0FB06E-27D7-4FCA-BCE6-43734681A5B0.PNG": {
+      "tamanho": 2467702,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/9ab73409-44d7-4b7b-910c-01654e5468db.JPG": {
+      "tamanho": 2214626,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/A6C3EA13-4E1E-4914-A537-6CDCF0E4CC2D.PNG": {
+      "tamanho": 2723675,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/B6A84683-FB23-4E59-B071-09F30F4EEFAC.PNG": {
+      "tamanho": 2791454,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/CCEF4486-EFCD-42C3-8A69-14F3ED810D12.PNG": {
+      "tamanho": 2720932,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/DBD94030-DDE1-40C6-97E1-2AA4E6B02EC6.PNG": {
+      "tamanho": 2750742,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/DFC5E7EF-5728-4C46-B6BA-93575590D231.PNG": {
+      "tamanho": 2703618,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/E35F0735-AF50-4486-8C56-3588E95195AB.PNG": {
+      "tamanho": 2620401,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/F8714669-67B9-497F-8939-B758EE11CC3A.PNG": {
+      "tamanho": 2934563,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_0849.HEIC": {
+      "tamanho": 3464244,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_0959.HEIC": {
+      "tamanho": 3588596,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_0997.HEIC": {
+      "tamanho": 3904176,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_1213.HEIC": {
+      "tamanho": 3578402,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_1263.HEIC": {
+      "tamanho": 3859364,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_1364.HEIC": {
+      "tamanho": 3410706,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_1416.HEIC": {
+      "tamanho": 3757498,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_1651.HEIC": {
+      "tamanho": 3468134,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_1797.HEIC": {
+      "tamanho": 2417819,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_1798.HEIC": {
+      "tamanho": 3640701,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_1827.HEIC": {
+      "tamanho": 3905714,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_1829.HEIC": {
+      "tamanho": 3140637,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_1836.HEIC": {
+      "tamanho": 3498107,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_1839.HEIC": {
+      "tamanho": 3139814,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_1848.HEIC": {
+      "tamanho": 2181796,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_1849.HEIC": {
+      "tamanho": 3112504,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_1935.HEIC": {
+      "tamanho": 3719399,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_1937.HEIC": {
+      "tamanho": 2758538,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_1989.HEIC": {
+      "tamanho": 3483000,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_1991.HEIC": {
+      "tamanho": 3585197,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2039.HEIC": {
+      "tamanho": 3352433,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2049.HEIC": {
+      "tamanho": 3903739,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2114.HEIC": {
+      "tamanho": 3539864,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2116.HEIC": {
+      "tamanho": 3483560,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2118.HEIC": {
+      "tamanho": 3257739,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2186.HEIC": {
+      "tamanho": 3314361,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2244.HEIC": {
+      "tamanho": 3530942,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2246.HEIC": {
+      "tamanho": 2371229,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2248.HEIC": {
+      "tamanho": 2706704,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2307.HEIC": {
+      "tamanho": 3222178,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2411.HEIC": {
+      "tamanho": 3408357,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2444.HEIC": {
+      "tamanho": 3233892,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2480.HEIC": {
+      "tamanho": 3423290,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2547.HEIC": {
+      "tamanho": 3442970,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2549.HEIC": {
+      "tamanho": 2757437,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2550.HEIC": {
+      "tamanho": 3523298,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2611.HEIC": {
+      "tamanho": 3411951,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2613.HEIC": {
+      "tamanho": 3206466,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2636.HEIC": {
+      "tamanho": 3330962,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2654.HEIC": {
+      "tamanho": 2419502,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2655.HEIC": {
+      "tamanho": 2860459,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2656.HEIC": {
+      "tamanho": 3500051,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2698.HEIC": {
+      "tamanho": 2477090,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2699.HEIC": {
+      "tamanho": 3595596,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2753.HEIC": {
+      "tamanho": 1737021,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2979.HEIC": {
+      "tamanho": 3362762,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2985.HEIC": {
+      "tamanho": 1668825,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2989.HEIC": {
+      "tamanho": 3239851,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_3062.HEIC": {
+      "tamanho": 2675596,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_3065.HEIC": {
+      "tamanho": 3038275,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_3066.HEIC": {
+      "tamanho": 1432720,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_3067.HEIC": {
+      "tamanho": 2546460,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_3232.HEIC": {
+      "tamanho": 3921924,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_3251.HEIC": {
+      "tamanho": 3298079,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_3422.HEIC": {
+      "tamanho": 3677141,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_3594.HEIC": {
+      "tamanho": 3673697,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_3690.HEIC": {
+      "tamanho": 3285058,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_3693.HEIC": {
+      "tamanho": 3183812,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_3902.HEIC": {
+      "tamanho": 3127386,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_4121.HEIC": {
+      "tamanho": 2770186,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_4122.HEIC": {
+      "tamanho": 3636534,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_4232.HEIC": {
+      "tamanho": 3293679,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_4235.HEIC": {
+      "tamanho": 1758288,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_4236.HEIC": {
+      "tamanho": 3502342,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_4237.HEIC": {
+      "tamanho": 3371870,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_4254.HEIC": {
+      "tamanho": 3370720,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_4256.HEIC": {
+      "tamanho": 4012396,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_4282.HEIC": {
+      "tamanho": 2134205,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_4319.HEIC": {
+      "tamanho": 2771384,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_4322.HEIC": {
+      "tamanho": 3852268,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_4437.HEIC": {
+      "tamanho": 2804249,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_4438.HEIC": {
+      "tamanho": 2519967,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_5205.HEIC": {
+      "tamanho": 4064992,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_5950.HEIC": {
+      "tamanho": 3610225,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_5958.jpg": {
+      "tamanho": 388851,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_5988.HEIC": {
+      "tamanho": 3148041,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_5989.HEIC": {
+      "tamanho": 2879724,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_5990.HEIC": {
+      "tamanho": 1810493,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_5991.HEIC": {
+      "tamanho": 2635284,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_5992.HEIC": {
+      "tamanho": 3790225,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_6037.HEIC": {
+      "tamanho": 3344173,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_6038.HEIC": {
+      "tamanho": 3217832,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_6039.HEIC": {
+      "tamanho": 2968765,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_6040.HEIC": {
+      "tamanho": 1733276,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_6041.HEIC": {
+      "tamanho": 3030973,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/a19a8c79-6262-486c-91a8-b1e64650e52e.JPG": {
+      "tamanho": 357534,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/a639ca93-af15-4d5f-8c0d-2cf0a53087d9.JPG": {
+      "tamanho": 1902158,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/a678a4f3-5ec8-4b79-8cc5-c28e2059ca03.JPG": {
+      "tamanho": 1871960,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/a8b71098-001b-4976-b20c-e36e508e9fc0.JPG": {
+      "tamanho": 2119983,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/aa031dbc-49b7-41b3-a882-c35f1fe0454e.JPG": {
+      "tamanho": 1626434,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/ba39e076-d8ac-4558-a613-c0a2dfa8e4e8.JPG": {
+      "tamanho": 204697,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/bb86a08f-6349-4b4e-b948-124a7bb34770.JPG": {
+      "tamanho": 384747,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/c24bcf72-f911-4905-b5c4-b5479ad923c0.JPG": {
+      "tamanho": 1842199,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/c306f18f-6efd-4f3e-9e13-12886a9e7832.JPG": {
+      "tamanho": 2239923,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/c9099511-d135-4e65-8262-29ab5654a3f4.JPG": {
+      "tamanho": 1840112,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/d94c0b9f-e834-4471-bf05-0e5fbe0cb33e.JPG": {
+      "tamanho": 133072,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/da4c7c33-4bb3-4ac1-9d90-44288ee96081.JPG": {
+      "tamanho": 2158588,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/db17a0dd-ff7d-4e21-8e75-9a141cb3791f.JPG": {
+      "tamanho": 1718539,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/db8835f0-5452-4445-9d11-244e9b8b17de.JPG": {
+      "tamanho": 226298,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/e0d157ef-bd43-4198-9989-8bfea1dd5dd0.JPG": {
+      "tamanho": 1107954,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/e1041a3d-817e-45ea-8248-0d45bd3dd343.JPG": {
+      "tamanho": 382109,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/e3611ca5-dcf6-40b4-8ca4-d262341889d3.JPG": {
+      "tamanho": 1973044,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/e4420b46-4fc4-4965-bb85-cc877c4c7e58.JPG": {
+      "tamanho": 428739,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/e70b034c-26ab-4d40-b41c-df40e339916e.JPG": {
+      "tamanho": 1655910,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/e86ffea0-d7d3-49ad-b40c-0718cda8e727.JPG": {
+      "tamanho": 1741567,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/ed9ba467-5bea-4893-9abd-98f806d2cabf.JPG": {
+      "tamanho": 1171758,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/f0521c06-a0c9-4856-9a85-d3f95b3196bf.JPG": {
+      "tamanho": 1569248,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/f76b3ebe-c58e-404a-861e-c49d32bd12ae.JPG": {
+      "tamanho": 336394,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/fa66e202-2bfd-4696-85ca-0f90e380a68e.JPG": {
+      "tamanho": 2273120,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/fe78ad7b-0d86-403f-882c-5cb1c6d3d402.JPG": {
+      "tamanho": 1811717,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/538E824A-C2CD-4F10-975F-46D9C59DA7C5.MOV": {
+      "tamanho": 76203154,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/BD0E5F71-B4B1-4E33-8AEF-1141F61032A9.MP4": {
+      "tamanho": 23243905,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_0881.MOV": {
+      "tamanho": 48920280,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_0883.MOV": {
+      "tamanho": 30597582,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_0889.MOV": {
+      "tamanho": 36387950,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2413.MOV": {
+      "tamanho": 51423355,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_3082.MOV": {
+      "tamanho": 75326093,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_3303.MOV": {
+      "tamanho": 50336734,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_3969.MOV": {
+      "tamanho": 89129550,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_1938.MOV": {
+      "tamanho": 14214661,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_2548.MOV": {
+      "tamanho": 10316877,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/810bf6c6f8014045ba126bb048d3b824.MOV": {
+      "tamanho": 1130580,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/954d019a-18c3-4a46-9158-782f25a5ca65.MP4": {
+      "tamanho": 3385988,
+      "mtimeMs": null,
+      "registrado_em": "2026-10-24"
+    },
+    "Anúncio Star/IMG_4665.MOV": {
+      "tamanho": 62963820,
+      "mtimeMs": 1792632083160,
+      "registrado_em": "2026-10-24"
+    }
+  },
+  "baseline_feita_em": "2026-10-22 (execução de 21/10 21h, Brasília)",
+  "catalogo": {
+    "Anúncio Star/001b94ee-9135-4f10-b37b-21a6eb9ef195.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/0141f35a-b4cc-4092-9e74-5b1a84487a19.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/028332c4-9f9a-4df0-9a50-e69d1264621d.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/040F5D48-8A59-40AE-A437-DC673865B5DA.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
+    "Anúncio Star/065d26e4-6148-49b7-96b7-3a6f86d8f724.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/075e6656-ece5-4358-9075-3c68b2a75626.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/0A840D89-1035-4471-A2A4-7DA62362A7F2.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
+    "Anúncio Star/0F956B52-CDDF-445D-9E53-BE3851E85B7C.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
+    "Anúncio Star/0FB78570-E59A-455F-8CEB-707F72A1A9D4.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/0fc3c6aa-0d74-44c7-9765-57acfc3a893b.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/1140d9f3-0e69-4a82-9cb3-cbaabef22e81.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/12fb0de7-4c9c-435b-bc28-2d48c113370c.jpg": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/15F229A4-D929-453A-B7D3-3CB25E81AD05.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
+    "Anúncio Star/171d9c4c-0e78-403d-ab1b-61c87b974aa5.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/187b13c7-f18c-4e04-bc0e-50d8e0e602df.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/1899b1c7-6987-4ac6-9a7a-402b3e152283.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/1AFD95BA-E25F-4369-B0AC-D0FEAE5B3CDB.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/1a8c8835-0d5b-45d6-a393-0147ee80d676.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/1af66596-26f1-4d1a-9cbe-1629bbe646c6.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/1b085c27-9081-4f3f-a544-74b78ab207eb.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/1b85c7f4-9774-44b6-99c4-43966ebe5b60.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/20d986c5-d1c9-4bff-bf84-59d4bc924f28.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/22769057-6D12-431A-97F1-59C2D320AA4F.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
+    "Anúncio Star/22c5b4c1-7475-4ffc-aa98-9e083a938934.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/26622f7f-f8cb-4aef-909e-0072ec33fe3a.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/29ba2d21-b6f5-48bc-937f-bca1fac81856.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/2F9C5BE7-63E2-48F0-8CA6-94EB68398585.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
+    "Anúncio Star/2be2c0c9-ae37-4564-bddf-cb5089edab6c.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/2c3c44a9-a1f4-4483-a4c7-dbd31fb5fb40.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/32d2d66d-be75-489c-8bb2-b62937384dd9.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/34ad2b8e-2467-41c7-99ce-903c6be44c36.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/39cc4607-1e32-4498-8c52-39b1a45b08ad.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/3CA1813D-44D6-4B17-881B-9E8FBCE19DCA.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
+    "Anúncio Star/3E108100-51A5-4E58-B336-441FEA975A3D.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
+    "Anúncio Star/44b7e56a-5887-40b5-9287-05c9380ef32e.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/452b5c59-9cfd-40f0-a232-69d68bb5c12c.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/4aec0096-e1b0-445c-8c0f-926cb994eb01.JPG": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/4bf85d38-c4e0-4906-995c-fb766980ad65.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/4ca1959f-9fb2-4f74-98f4-4f608556eb95.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/545062ad-c069-41ea-ac18-325255aab7d9.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/562baf60-97e5-4ba4-96ed-78fbdcb49c8a.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/582F3115-95D0-4F79-885B-CC4A19306EC1.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
+    "Anúncio Star/5a1c4f12-2681-4b6c-ab47-8433220c4eb0.JPG": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/5d97e3db-4506-48a8-b648-4453e1f93f02.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/5dccb095-0e22-45e3-bc6b-6375d9c1d36a.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/5e108351-e65f-49f4-a514-80404e5421e9.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/600ad95e-82d4-4eaf-8f72-0c3b8a5994a0.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/6939ae63-68a9-42aa-85e8-2173f912de74.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/69509743-d43e-487e-98c7-7b5a5cf193ce.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/6aae6a49-5e09-46e4-a88d-bf50c73855fb.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/6bdbaaa3-ab5e-4d3c-b6ee-fac77f0ea672.jpg": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/6c6d0bdf-eee5-456f-9b58-2ebae5bf3a20.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/6cb9f2e6-a3cc-4e46-81bc-bcd37e4fe841.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/6f5acda3-1a35-4415-a3e0-d9cbca02b388.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/6f916e2a-acfd-415e-84e0-f19bc097716e.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/704cfb5d-4d75-45cd-80eb-ff6d86cab2a1.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/705211a2-b594-4c15-bb66-41a72652994d.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/778c664d-ae0e-48a2-8034-30cdde1d10bd.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/7ff07dd9-c0ce-4136-ac43-5a81a3180fa8.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/80a216d1-e648-4d6b-9161-2b6d75217648.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/824fdd7d-e883-4f51-8b66-74d799566efc.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/831ce729-dabe-436f-9186-5d584aac3e65.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/8401c298-c634-4585-9180-8df8c2f4fdfc.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/8481a79e-544e-40da-b4e1-a4e5f84a4e33.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/84b5d0ef-4f2d-4c72-aff7-0964661103e7.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/85c764e9-ae2b-4e20-85ce-bd6c6a307dbd.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/86f56ad7-ba13-4b4e-9a87-eadcd7cb54bf.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/87336756-afd1-42d6-bcbb-449611be925c.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/88321108-8611-41fe-8478-10f9d8176ad9.JPG": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/8be787e4-f7af-47d2-8150-f14795f3a596.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/9753563b-f258-4ca2-86fb-ed2623e79a25.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/990fdbff-fe21-49aa-8046-753ca6d5cca2.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/9C0FB06E-27D7-4FCA-BCE6-43734681A5B0.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
+    "Anúncio Star/9ab73409-44d7-4b7b-910c-01654e5468db.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/A6C3EA13-4E1E-4914-A537-6CDCF0E4CC2D.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
+    "Anúncio Star/B6A84683-FB23-4E59-B071-09F30F4EEFAC.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
+    "Anúncio Star/CCEF4486-EFCD-42C3-8A69-14F3ED810D12.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
+    "Anúncio Star/DBD94030-DDE1-40C6-97E1-2AA4E6B02EC6.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
+    "Anúncio Star/DFC5E7EF-5728-4C46-B6BA-93575590D231.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
+    "Anúncio Star/E35F0735-AF50-4486-8C56-3588E95195AB.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
+    "Anúncio Star/F8714669-67B9-497F-8939-B758EE11CC3A.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
+    "Anúncio Star/IMG_0849.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_0959.HEIC": "Renault Captur no elevador, parede STAR ÓLEO, capa de placa Star",
+    "Anúncio Star/IMG_0997.HEIC": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_1213.HEIC": "Honda Fit no elevador, parede STAR ÓLEO, capa de placa Star",
+    "Anúncio Star/IMG_1263.HEIC": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_1364.HEIC": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_1416.HEIC": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_1651.HEIC": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_1797.HEIC": "trocador de calor x radiador de óleo (serviço do Renegade/Toro) – bastidor",
+    "Anúncio Star/IMG_1798.HEIC": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_1827.HEIC": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_1829.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/IMG_1836.HEIC": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_1839.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/IMG_1848.HEIC": "filtro do câmbio sujo x novo (cartucho), close",
+    "Anúncio Star/IMG_1849.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/IMG_1935.HEIC": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_1937.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/IMG_1989.HEIC": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_1991.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_2039.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_2049.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_2114.HEIC": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_2116.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_2118.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_2186.HEIC": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_2244.HEIC": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_2246.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/IMG_2248.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/IMG_2307.HEIC": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_2411.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_2444.HEIC": "Mercedes preta (grade AMG) no pátio, sem elevador",
+    "Anúncio Star/IMG_2480.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_2547.HEIC": "cárter do câmbio com borra + peça, balde com óleo velho",
+    "Anúncio Star/IMG_2549.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/IMG_2550.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_2611.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_2613.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_2636.HEIC": "Jaguar F-Pace no elevador com máquina e tambor Motul, capa de placa Star",
+    "Anúncio Star/IMG_2654.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/IMG_2655.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/IMG_2656.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_2698.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/IMG_2699.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_2753.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/IMG_2979.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_2985.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/IMG_2989.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_3062.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/IMG_3065.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/IMG_3066.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/IMG_3067.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/IMG_3232.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_3251.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_3422.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_3594.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_3690.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_3693.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_3902.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/IMG_4121.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/IMG_4122.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_4232.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_4235.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/IMG_4236.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/IMG_4237.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_4254.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_4256.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_4282.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/IMG_4319.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/IMG_4322.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_4437.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/IMG_4438.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/IMG_5205.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_5950.HEIC": "Fernando sorrindo no balcão/prateleira de óleos (bom para post institucional)",
+    "Anúncio Star/IMG_5958.jpg": "print do site da Star (não postar)",
+    "Anúncio Star/IMG_5988.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/IMG_5989.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/IMG_5990.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/IMG_5991.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/IMG_5992.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/IMG_6037.HEIC": "câmbio automático desmontado/aberto na bancada (bastidor)",
+    "Anúncio Star/IMG_6038.HEIC": "câmbio automático desmontado/aberto na bancada (bastidor)",
+    "Anúncio Star/IMG_6039.HEIC": "câmbio automático desmontado/aberto na bancada (bastidor)",
+    "Anúncio Star/IMG_6040.HEIC": "câmbio automático desmontado/aberto na bancada (bastidor)",
+    "Anúncio Star/IMG_6041.HEIC": "câmbio automático desmontado/aberto na bancada (bastidor)",
+    "Anúncio Star/a19a8c79-6262-486c-91a8-b1e64650e52e.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/a639ca93-af15-4d5f-8c0d-2cf0a53087d9.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/a678a4f3-5ec8-4b79-8cc5-c28e2059ca03.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/a8b71098-001b-4976-b20c-e36e508e9fc0.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/aa031dbc-49b7-41b3-a882-c35f1fe0454e.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/ba39e076-d8ac-4558-a613-c0a2dfa8e4e8.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/bb86a08f-6349-4b4e-b948-124a7bb34770.JPG": "ARTE ANTIGA pronta (não repostar; só referência)",
+    "Anúncio Star/c24bcf72-f911-4905-b5c4-b5479ad923c0.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/c306f18f-6efd-4f3e-9e13-12886a9e7832.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/c9099511-d135-4e65-8262-29ab5654a3f4.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/d94c0b9f-e834-4471-bf05-0e5fbe0cb33e.JPG": "fachada/entrada da loja vista de dentro",
+    "Anúncio Star/da4c7c33-4bb3-4ac1-9d90-44288ee96081.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/db17a0dd-ff7d-4e21-8e75-9a141cb3791f.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/db8835f0-5452-4445-9d11-244e9b8b17de.JPG": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/e0d157ef-bd43-4198-9989-8bfea1dd5dd0.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/e1041a3d-817e-45ea-8248-0d45bd3dd343.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/e3611ca5-dcf6-40b4-8ca4-d262341889d3.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/e4420b46-4fc4-4965-bb85-cc877c4c7e58.JPG": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/e70b034c-26ab-4d40-b41c-df40e339916e.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/e86ffea0-d7d3-49ad-b40c-0718cda8e727.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/ed9ba467-5bea-4893-9abd-98f806d2cabf.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+    "Anúncio Star/f0521c06-a0c9-4856-9a85-d3f95b3196bf.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/f76b3ebe-c58e-404a-861e-c49d32bd12ae.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/fa66e202-2bfd-4696-85ca-0f90e380a68e.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/fe78ad7b-0d86-403f-882c-5cb1c6d3d402.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+    "Anúncio Star/538E824A-C2CD-4F10-975F-46D9C59DA7C5.MOV": "Fernando + Rodrigão explicando troca de óleo do câmbio do Nissan Livina (porca invertida acima do corpo de válvula), 58 s, bruto sem legenda: ótimo reel educativo/bastidor",
+    "Anúncio Star/BD0E5F71-B4B1-4E33-8AEF-1141F61032A9.MP4": "HUMOR/trend com a equipe toda em frente à parede STAR ÓLEO (\"se você está com depressão, ansiedade... fica doido com nós\"), 11 s: PRIORIDADE para reel de humor",
+    "Anúncio Star/IMG_0881.MOV": "Fernando na frente de Mercedes C-Class com Motul: chamada de troca de óleo do câmbio, cita 10x sem juros, 15 s",
+    "Anúncio Star/IMG_0883.MOV": "Fernando andando na loja: \"Seu carro é automático e tem mais de 50 mil km? está na hora de trocar o óleo do câmbio\", 9 s",
+    "Anúncio Star/IMG_0889.MOV": "Fernando na frente de carro escuro: chamada troca de óleo do câmbio, nacionais e importados, 10x sem juros, fala \"clique no botão abaixo\" (cortar o fim), 11 s",
+    "Anúncio Star/IMG_2413.MOV": "Fernando com Corolla híbrido: cita preço R$ 699 em 10x (preço NÃO confirmado: não usar o trecho do preço sem o Fernando confirmar), 16 s",
+    "Anúncio Star/IMG_3082.MOV": "Fernando, tom de alerta/humor: \"Atenção proprietário de Jeep Renegade, Compass, Toro!\" trocador de calor estourou, água com óleo, mostra o balde, 23 s: ótimo reel",
+    "Anúncio Star/IMG_3303.MOV": "Fernando: Renegade eliminando trocador de calor e instalando radiador de óleo, \"vem pra Star\", 16 s",
+    "Anúncio Star/IMG_3969.MOV": "Fernando: Renegade, troca do trocador de calor por radiador de óleo, explicação completa, 28 s",
+    "Anúncio Star/IMG_1938.MOV": "close do filtro do câmbio sujo x novo com balde de óleo velho, 8 s (b-roll)",
+    "Anúncio Star/IMG_2548.MOV": "close do cárter do câmbio com borra/limalha nos ímãs, 5 s (b-roll)",
+    "Anúncio Star/810bf6c6f8014045ba126bb048d3b824.MOV": "roda BMW girando no elevador, 5 s (b-roll)",
+    "Anúncio Star/954d019a-18c3-4a46-9158-782f25a5ca65.MP4": "anúncio já editado \"Óleo do câmbio pertinho de você\" (Taquara, Fernando, legenda queimada) = versão final do IMG_4665: JÁ USADO, não repostar",
+    "Anúncio Star/IMG_4665.MOV": "bruto do anúncio Taquara: JÁ USADO"
+  },
+  "ultima_verificacao": {
+    "data": "2026-10-24 21h30 (Brasília)",
+    "resultado": "nenhum arquivo novo na pasta desde 21/10; grade completa até 31/10"
   }
- },
- "baseline_feita_em": "2026-10-22 (execução de 21/10 21h, Brasília)",
- "catalogo": {
-  "Anúncio Star/001b94ee-9135-4f10-b37b-21a6eb9ef195.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/0141f35a-b4cc-4092-9e74-5b1a84487a19.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/028332c4-9f9a-4df0-9a50-e69d1264621d.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/040F5D48-8A59-40AE-A437-DC673865B5DA.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
-  "Anúncio Star/065d26e4-6148-49b7-96b7-3a6f86d8f724.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/075e6656-ece5-4358-9075-3c68b2a75626.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/0A840D89-1035-4471-A2A4-7DA62362A7F2.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
-  "Anúncio Star/0F956B52-CDDF-445D-9E53-BE3851E85B7C.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
-  "Anúncio Star/0FB78570-E59A-455F-8CEB-707F72A1A9D4.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/0fc3c6aa-0d74-44c7-9765-57acfc3a893b.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/1140d9f3-0e69-4a82-9cb3-cbaabef22e81.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/12fb0de7-4c9c-435b-bc28-2d48c113370c.jpg": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/15F229A4-D929-453A-B7D3-3CB25E81AD05.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
-  "Anúncio Star/171d9c4c-0e78-403d-ab1b-61c87b974aa5.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/187b13c7-f18c-4e04-bc0e-50d8e0e602df.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/1899b1c7-6987-4ac6-9a7a-402b3e152283.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/1AFD95BA-E25F-4369-B0AC-D0FEAE5B3CDB.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/1a8c8835-0d5b-45d6-a393-0147ee80d676.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/1af66596-26f1-4d1a-9cbe-1629bbe646c6.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/1b085c27-9081-4f3f-a544-74b78ab207eb.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/1b85c7f4-9774-44b6-99c4-43966ebe5b60.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/20d986c5-d1c9-4bff-bf84-59d4bc924f28.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/22769057-6D12-431A-97F1-59C2D320AA4F.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
-  "Anúncio Star/22c5b4c1-7475-4ffc-aa98-9e083a938934.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/26622f7f-f8cb-4aef-909e-0072ec33fe3a.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/29ba2d21-b6f5-48bc-937f-bca1fac81856.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/2F9C5BE7-63E2-48F0-8CA6-94EB68398585.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
-  "Anúncio Star/2be2c0c9-ae37-4564-bddf-cb5089edab6c.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/2c3c44a9-a1f4-4483-a4c7-dbd31fb5fb40.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/32d2d66d-be75-489c-8bb2-b62937384dd9.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/34ad2b8e-2467-41c7-99ce-903c6be44c36.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/39cc4607-1e32-4498-8c52-39b1a45b08ad.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/3CA1813D-44D6-4B17-881B-9E8FBCE19DCA.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
-  "Anúncio Star/3E108100-51A5-4E58-B336-441FEA975A3D.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
-  "Anúncio Star/44b7e56a-5887-40b5-9287-05c9380ef32e.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/452b5c59-9cfd-40f0-a232-69d68bb5c12c.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/4aec0096-e1b0-445c-8c0f-926cb994eb01.JPG": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/4bf85d38-c4e0-4906-995c-fb766980ad65.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/4ca1959f-9fb2-4f74-98f4-4f608556eb95.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/545062ad-c069-41ea-ac18-325255aab7d9.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/562baf60-97e5-4ba4-96ed-78fbdcb49c8a.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/582F3115-95D0-4F79-885B-CC4A19306EC1.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
-  "Anúncio Star/5a1c4f12-2681-4b6c-ab47-8433220c4eb0.JPG": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/5d97e3db-4506-48a8-b648-4453e1f93f02.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/5dccb095-0e22-45e3-bc6b-6375d9c1d36a.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/5e108351-e65f-49f4-a514-80404e5421e9.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/600ad95e-82d4-4eaf-8f72-0c3b8a5994a0.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/6939ae63-68a9-42aa-85e8-2173f912de74.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/69509743-d43e-487e-98c7-7b5a5cf193ce.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/6aae6a49-5e09-46e4-a88d-bf50c73855fb.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/6bdbaaa3-ab5e-4d3c-b6ee-fac77f0ea672.jpg": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/6c6d0bdf-eee5-456f-9b58-2ebae5bf3a20.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/6cb9f2e6-a3cc-4e46-81bc-bcd37e4fe841.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/6f5acda3-1a35-4415-a3e0-d9cbca02b388.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/6f916e2a-acfd-415e-84e0-f19bc097716e.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/704cfb5d-4d75-45cd-80eb-ff6d86cab2a1.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/705211a2-b594-4c15-bb66-41a72652994d.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/778c664d-ae0e-48a2-8034-30cdde1d10bd.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/7ff07dd9-c0ce-4136-ac43-5a81a3180fa8.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/80a216d1-e648-4d6b-9161-2b6d75217648.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/824fdd7d-e883-4f51-8b66-74d799566efc.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/831ce729-dabe-436f-9186-5d584aac3e65.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/8401c298-c634-4585-9180-8df8c2f4fdfc.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/8481a79e-544e-40da-b4e1-a4e5f84a4e33.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/84b5d0ef-4f2d-4c72-aff7-0964661103e7.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/85c764e9-ae2b-4e20-85ce-bd6c6a307dbd.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/86f56ad7-ba13-4b4e-9a87-eadcd7cb54bf.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/87336756-afd1-42d6-bcbb-449611be925c.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/88321108-8611-41fe-8478-10f9d8176ad9.JPG": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/8be787e4-f7af-47d2-8150-f14795f3a596.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/9753563b-f258-4ca2-86fb-ed2623e79a25.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/990fdbff-fe21-49aa-8046-753ca6d5cca2.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/9C0FB06E-27D7-4FCA-BCE6-43734681A5B0.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
-  "Anúncio Star/9ab73409-44d7-4b7b-910c-01654e5468db.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/A6C3EA13-4E1E-4914-A537-6CDCF0E4CC2D.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
-  "Anúncio Star/B6A84683-FB23-4E59-B071-09F30F4EEFAC.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
-  "Anúncio Star/CCEF4486-EFCD-42C3-8A69-14F3ED810D12.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
-  "Anúncio Star/DBD94030-DDE1-40C6-97E1-2AA4E6B02EC6.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
-  "Anúncio Star/DFC5E7EF-5728-4C46-B6BA-93575590D231.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
-  "Anúncio Star/E35F0735-AF50-4486-8C56-3588E95195AB.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
-  "Anúncio Star/F8714669-67B9-497F-8939-B758EE11CC3A.PNG": "ARTE ANTIGA pronta (não repostar; só referência)",
-  "Anúncio Star/IMG_0849.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_0959.HEIC": "Renault Captur no elevador, parede STAR ÓLEO, capa de placa Star",
-  "Anúncio Star/IMG_0997.HEIC": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_1213.HEIC": "Honda Fit no elevador, parede STAR ÓLEO, capa de placa Star",
-  "Anúncio Star/IMG_1263.HEIC": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_1364.HEIC": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_1416.HEIC": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_1651.HEIC": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_1797.HEIC": "trocador de calor x radiador de óleo (serviço do Renegade/Toro) – bastidor",
-  "Anúncio Star/IMG_1798.HEIC": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_1827.HEIC": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_1829.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/IMG_1836.HEIC": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_1839.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/IMG_1848.HEIC": "filtro do câmbio sujo x novo (cartucho), close",
-  "Anúncio Star/IMG_1849.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/IMG_1935.HEIC": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_1937.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/IMG_1989.HEIC": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_1991.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_2039.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_2049.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_2114.HEIC": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_2116.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_2118.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_2186.HEIC": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_2244.HEIC": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_2246.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/IMG_2248.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/IMG_2307.HEIC": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_2411.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_2444.HEIC": "Mercedes preta (grade AMG) no pátio, sem elevador",
-  "Anúncio Star/IMG_2480.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_2547.HEIC": "cárter do câmbio com borra + peça, balde com óleo velho",
-  "Anúncio Star/IMG_2549.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/IMG_2550.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_2611.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_2613.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_2636.HEIC": "Jaguar F-Pace no elevador com máquina e tambor Motul, capa de placa Star",
-  "Anúncio Star/IMG_2654.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/IMG_2655.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/IMG_2656.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_2698.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/IMG_2699.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_2753.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/IMG_2979.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_2985.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/IMG_2989.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_3062.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/IMG_3065.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/IMG_3066.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/IMG_3067.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/IMG_3232.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_3251.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_3422.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_3594.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_3690.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_3693.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_3902.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/IMG_4121.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/IMG_4122.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_4232.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_4235.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/IMG_4236.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/IMG_4237.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_4254.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_4256.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_4282.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/IMG_4319.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/IMG_4322.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_4437.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/IMG_4438.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/IMG_5205.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_5950.HEIC": "Fernando sorrindo no balcão/prateleira de óleos (bom para post institucional)",
-  "Anúncio Star/IMG_5958.jpg": "print do site da Star (não postar)",
-  "Anúncio Star/IMG_5988.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/IMG_5989.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/IMG_5990.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/IMG_5991.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/IMG_5992.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/IMG_6037.HEIC": "câmbio automático desmontado/aberto na bancada (bastidor)",
-  "Anúncio Star/IMG_6038.HEIC": "câmbio automático desmontado/aberto na bancada (bastidor)",
-  "Anúncio Star/IMG_6039.HEIC": "câmbio automático desmontado/aberto na bancada (bastidor)",
-  "Anúncio Star/IMG_6040.HEIC": "câmbio automático desmontado/aberto na bancada (bastidor)",
-  "Anúncio Star/IMG_6041.HEIC": "câmbio automático desmontado/aberto na bancada (bastidor)",
-  "Anúncio Star/a19a8c79-6262-486c-91a8-b1e64650e52e.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/a639ca93-af15-4d5f-8c0d-2cf0a53087d9.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/a678a4f3-5ec8-4b79-8cc5-c28e2059ca03.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/a8b71098-001b-4976-b20c-e36e508e9fc0.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/aa031dbc-49b7-41b3-a882-c35f1fe0454e.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/ba39e076-d8ac-4558-a613-c0a2dfa8e4e8.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/bb86a08f-6349-4b4e-b948-124a7bb34770.JPG": "ARTE ANTIGA pronta (não repostar; só referência)",
-  "Anúncio Star/c24bcf72-f911-4905-b5c4-b5479ad923c0.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/c306f18f-6efd-4f3e-9e13-12886a9e7832.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/c9099511-d135-4e65-8262-29ab5654a3f4.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/d94c0b9f-e834-4471-bf05-0e5fbe0cb33e.JPG": "fachada/entrada da loja vista de dentro",
-  "Anúncio Star/da4c7c33-4bb3-4ac1-9d90-44288ee96081.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/db17a0dd-ff7d-4e21-8e75-9a141cb3791f.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/db8835f0-5452-4445-9d11-244e9b8b17de.JPG": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/e0d157ef-bd43-4198-9989-8bfea1dd5dd0.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/e1041a3d-817e-45ea-8248-0d45bd3dd343.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/e3611ca5-dcf6-40b4-8ca4-d262341889d3.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/e4420b46-4fc4-4965-bb85-cc877c4c7e58.JPG": "carro no elevador com máquina Motul/Höche e a parede STAR ÓLEO ao fundo (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/e70b034c-26ab-4d40-b41c-df40e339916e.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/e86ffea0-d7d3-49ad-b40c-0718cda8e727.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/ed9ba467-5bea-4893-9abd-98f806d2cabf.JPG": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/f0521c06-a0c9-4856-9a85-d3f95b3196bf.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/f76b3ebe-c58e-404a-861e-c49d32bd12ae.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/fa66e202-2bfd-4696-85ca-0f90e380a68e.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/fe78ad7b-0d86-403f-882c-5cb1c6d3d402.JPG": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/538E824A-C2CD-4F10-975F-46D9C59DA7C5.MOV": "Fernando + Rodrigão explicando troca de óleo do câmbio do Nissan Livina (porca invertida acima do corpo de válvula), 58 s, bruto sem legenda: ótimo reel educativo/bastidor",
-  "Anúncio Star/BD0E5F71-B4B1-4E33-8AEF-1141F61032A9.MP4": "HUMOR/trend com a equipe toda em frente à parede STAR ÓLEO (\"se você está com depressão, ansiedade... fica doido com nós\"), 11 s: PRIORIDADE para reel de humor",
-  "Anúncio Star/IMG_0881.MOV": "Fernando na frente de Mercedes C-Class com Motul: chamada de troca de óleo do câmbio, cita 10x sem juros, 15 s",
-  "Anúncio Star/IMG_0883.MOV": "Fernando andando na loja: \"Seu carro é automático e tem mais de 50 mil km? está na hora de trocar o óleo do câmbio\", 9 s",
-  "Anúncio Star/IMG_0889.MOV": "Fernando na frente de carro escuro: chamada troca de óleo do câmbio, nacionais e importados, 10x sem juros, fala \"clique no botão abaixo\" (cortar o fim), 11 s",
-  "Anúncio Star/IMG_2413.MOV": "Fernando com Corolla híbrido: cita preço R$ 699 em 10x (preço NÃO confirmado: não usar o trecho do preço sem o Fernando confirmar), 16 s",
-  "Anúncio Star/IMG_3082.MOV": "Fernando, tom de alerta/humor: \"Atenção proprietário de Jeep Renegade, Compass, Toro!\" trocador de calor estourou, água com óleo, mostra o balde, 23 s: ótimo reel",
-  "Anúncio Star/IMG_3303.MOV": "Fernando: Renegade eliminando trocador de calor e instalando radiador de óleo, \"vem pra Star\", 16 s",
-  "Anúncio Star/IMG_3969.MOV": "Fernando: Renegade, troca do trocador de calor por radiador de óleo, explicação completa, 28 s",
-  "Anúncio Star/IMG_1938.MOV": "close do filtro do câmbio sujo x novo com balde de óleo velho, 8 s (b-roll)",
-  "Anúncio Star/IMG_2548.MOV": "close do cárter do câmbio com borra/limalha nos ímãs, 5 s (b-roll)",
-  "Anúncio Star/810bf6c6f8014045ba126bb048d3b824.MOV": "roda BMW girando no elevador, 5 s (b-roll)",
-  "Anúncio Star/954d019a-18c3-4a46-9158-782f25a5ca65.MP4": "anúncio já editado \"Óleo do câmbio pertinho de você\" (Taquara, Fernando, legenda queimada) = versão final do IMG_4665: JÁ USADO, não repostar",
-  "Anúncio Star/IMG_4665.MOV": "bruto do anúncio Taquara: JÁ USADO"
- }
 }

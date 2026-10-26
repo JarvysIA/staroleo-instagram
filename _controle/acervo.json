@@ -34,7 +34,8 @@
     "Anúncio Star/IMG_2547.HEIC": "lote-2026-10-24 fundo do story dica \"óleo do câmbio não é eterno\" (30/10)",
     "Anúncio Star/Pneus Crystone/IMG_0291.HEIC": "lote-2026-10-24 story pneus Crystone (31/10)",
     "Anúncio Star/IMG_4665.MOV": "anúncio Taquara (anuncio_taquara_jumpcut.py)",
-    "Anúncio Star/954d019a-18c3-4a46-9158-782f25a5ca65.MP4": "versão editada do anúncio Taquara: não repostar"
+    "Anúncio Star/954d019a-18c3-4a46-9158-782f25a5ca65.MP4": "versão editada do anúncio Taquara: não repostar",
+    "2026-10/fontes/fernando_balcao.jpg": "trend \"erro do sistema\" (post_trend_system_error.jpg, feed 03/11); já usada no reel do feriado (22/10)"
   },
   "regras": [
     "JPGs com nome em UUID dentro de Câmbio Automático_ costumam ter figurinhas antigas do Instagram por cima (\"Parcelamos em até 10x\", nome do carro): prefira o HEIC da mesma pasta; use o JPG só se não houver alternativa e se dá para recortar sem as figurinhas.",

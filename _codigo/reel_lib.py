@@ -6,6 +6,20 @@ LOGO = os.path.join(os.path.dirname(os.path.abspath(__file__)), "logo.png")
 
 def ts(t): return f"{int(t//3600)}:{int(t%3600//60):02d}:{t%60:05.2f}"
 
+# COR DO iPHONE (regra de 26/10/2026, Fernando achou os vídeos "pálidos"):
+# o iPhone grava em HDR (HLG, color_transfer arib-std-b67). Só trocar a etiqueta para bt709 deixa a imagem lavada.
+# Tone mapping (zscale+tonemap) muda as cores (funil amarelo vira laranja). O padrão aprovado é:
+# etiqueta bt709 + curva de contraste forte + saturação 1,45 (igual à foto do iPhone). Use cor_video(src) em todo
+# vídeo bruto do iPhone; vídeo já editado/SDR (bt709) recebe só a etiqueta.
+COR_IPHONE = "curves=preset=strong_contrast,eq=saturation=1.45"
+ETIQ_709 = "format=yuv420p,setparams=color_primaries=bt709:color_trc=bt709:colorspace=bt709:range=tv"
+
+def cor_video(src):
+    """Filtro de cor para colocar depois do scale/crop: HLG do iPhone -> grade aprovada; SDR -> só etiqueta bt709."""
+    trc = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=color_transfer",
+                          "-of", "csv=p=0", src], capture_output=True, text=True).stdout.strip().strip(",").split(",")[0]
+    return ETIQ_709 + ("," + COR_IPHONE if trc in ("arib-std-b67", "smpte2084") else "")
+
 HDR = f"""[Script Info]
 ScriptType: v4.00+
 PlayResX: {W}
@@ -34,7 +48,7 @@ def make_reel(src, segs, out, tag="CLIENTE REAL DA STAR", masks=(), end=3.0, wor
     for i, (a, b, _) in enumerate(segs):
         d = b - a; p = f"{workdir}/{base}_seg{i}.mp4"
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(a), "-i", src, "-t", str(d),
-            "-vf", f"scale={W}:{VH}:flags=lanczos,pad={W}:{H}:0:{VY}:color=0x111214,fps=30,format=yuv420p",
+            "-vf", f"scale={W}:{VH}:flags=lanczos,{cor_video(src)},pad={W}:{H}:0:{VY}:color=0x111214,fps=30,format=yuv420p",
             "-af", f"afade=t=in:d=0.04,afade=t=out:st={d-0.06}:d=0.06,aresample=48000,aformat=channel_layouts=stereo",
             "-c:v", "libx264", "-preset", "fast", "-crf", "16", "-c:a", "aac", "-b:a", "192k", p], check=True)
         parts.append(p)

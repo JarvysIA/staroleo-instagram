@@ -20,9 +20,14 @@ BROLL = [("6224", 0.5, 2.4), ("6225", 0.5, 2.9),      # chegou com vazamento / c
          ("6242", 10.0, 2.5)]                          # Creta pronto no elevador (capa de placa Star)
 END = 3.4
 
+# Cor (26/10, Fernando achou os vídeos "pálidos"): o iPhone grava em HDR (HLG). Só trocar a etiqueta para bt709
+# deixa a imagem lavada. Tone mapping de verdade (zscale+tonemap) deixou o funil amarelo laranja (desvio de cor nos
+# claros). O que ficou igual à foto do iPhone, com as cores certas: etiqueta bt709 + curva de contraste forte + saturação 1,45.
+GRADE = "curves=preset=strong_contrast,eq=saturation=1.45"
+
 def seg(src, a, d, out):
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(a), "-i", src, "-t", str(d), "-an",
-        "-vf", f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},eq=contrast=1.05:saturation=1.08,format=yuv420p,setparams=color_primaries=bt709:color_trc=bt709:colorspace=bt709:range=tv",
+        "-vf", f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},format=yuv420p,setparams=color_primaries=bt709:color_trc=bt709:colorspace=bt709:range=tv,{GRADE}",
         "-c:v", "libx264", "-preset", "fast", "-crf", "17", out], check=True)
 
 parts = ["t/hook.mp4"]

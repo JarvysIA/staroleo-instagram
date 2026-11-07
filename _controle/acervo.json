@@ -57,7 +57,15 @@
   "Anúncio Star/Câmbio Automático_/Câmbio BMW X1/IMG_0644.HEIC": "lote-2026-11-06 story Black Já passou aqui BMW X1 (12/11)",
   "Anúncio Star/Câmbio Automático_/Câmbio Audi Q3/IMG_0796.HEIC": "lote-2026-11-06 story Black Já passou aqui Audi Q3 (13/11)",
   "Anúncio Star/Novembro 26/IMG_6162.HEIC": "lote-2026-11-06 fundo do story contagem 15 dias (12/11)",
-  "Anúncio Star/Pneus Crystone/IMG_0294.HEIC": "lote-2026-11-06 story pneus Crystone 185/65R15 (13/11)"
+  "Anúncio Star/Pneus Crystone/IMG_0294.HEIC": "lote-2026-11-06 story pneus Crystone 185/65R15 (13/11)",
+  "Anúncio Star/Tudo até Outubro 26/IMG_2611.HEIC": "lote-2026-11-07 (14/11): capa carrossel troca parcial x completa",
+  "Anúncio Star/Tudo até Outubro 26/IMG_5989.HEIC": "lote-2026-11-07 (14/11): slide parcial",
+  "Anúncio Star/Tudo até Outubro 26/IMG_3232.HEIC": "lote-2026-11-07 (14/11): slide completa",
+  "Anúncio Star/Tudo até Outubro 26/IMG_2549.HEIC": "lote-2026-11-07 (14/11): slide filtro/cárter",
+  "Anúncio Star/Tudo até Outubro 26/IMG_3066.HEIC": "lote-2026-11-07 (14/11): slide 50 mil km",
+  "Anúncio Star/Tudo até Outubro 26/IMG_0849.HEIC": "lote-2026-11-07 (14/11): fundo do CTA",
+  "Anúncio Star/Câmbio Automático_/Câmbio C4 Pallas/IMG_0599.HEIC": "lote-2026-11-07 (14/11): story Black Já passou aqui C4 Pallas",
+  "Anúncio Star/Novembro 26/IMG_6161.HEIC": "lote-2026-11-07 (14/11): fundo da contagem 13 dias"
  },
  "regras": [
   "JPGs com nome em UUID dentro de Câmbio Automático_ costumam ter figurinhas antigas do Instagram por cima (\"Parcelamos em até 10x\", nome do carro): prefira o HEIC da mesma pasta; use o JPG só se não houver alternativa e se dá para recortar sem as figurinhas.",
@@ -1782,5 +1790,5 @@
   "Anúncio Star/Novembro 26/reel_renegade_preventiva.MP4": "reel já publicado (nosso), só arquivo",
   "Anúncio Star/Novembro 26/reel_halloween_abobora.MP4": "reel já publicado (nosso), só arquivo"
  },
- "ultima_verificacao": "05/11/2026 22h45 (Brasília): nenhum arquivo de mídia novo (só desktop.ini do OneDrive; 393 arquivos). Último material novo na pasta: Novembro 26 (02/11); VW veio pelo chat em 05/11. Produzido lote-2026-11-06: stories de 12/11 e dia 13/11 completo."
+ "ultima_verificacao": "2026-11-07: 372 arquivos, nenhum novo desde 02/11"
 }

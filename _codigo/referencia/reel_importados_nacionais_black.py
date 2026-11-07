@@ -10,7 +10,7 @@ from black_lib import *
 from reel_lib import cor_video
 S = WD + "/src/"
 MUSIC = "/home/claude/staroleo-instagram/_codigo/audio/trilha_corporativa_m1.mp3"
-OUT = "/home/claude/staroleo-instagram/2026-11/lote-2026-11-07/reel_importados_nacionais_black.mp4"
+OUT = "/home/claude/staroleo-instagram/2026-11/lote-2026-11-07/reel_importados_nacionais_black_v2.mp4"
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 TAG709 = "setparams=color_primaries=bt709:color_trc=bt709:colorspace=bt709:range=tv"
 def run(a): subprocess.run(a, check=True)
@@ -51,7 +51,7 @@ SC = [
   ("f", card(BMWM, "bmw_motul", fy=0.4), 1.1, [I, ("BMW X2", "w")], (1.06, 1.0)),
   ("f", card(P + "c200.jpg", "c200", fy=0.35), 0.9, [I, ("MERCEDES C200", "w")], (1.0, 1.06)),
   ("f", card(P + "q5.jpg", "q5", fy=0.35), 0.7, [I, ("AUDI Q5", "w")], (1.06, 1.0)),
-  ("f", fitcard(P + "fpace.jpg", "fpace", (0, 340, 1080, 960)), 0.7, [I, ("JAGUAR F-PACE", "w")], (1.0, 1.06)),
+  ("f", card(P + "fpace_orig.jpg", "fpace", fy=0.3), 0.7, [I, ("JAGUAR F-PACE", "w")], (1.0, 1.06)),
   ("f", card(CRON, "cronos", fy=0.35), 0.6, [N, ("FIAT CRONOS", "w")], (1.06, 1.0)),
   ("f", card(P + "spin.jpg", "spin", fy=0.45), 0.7, [N, ("CHEVROLET SPIN", "w")], (1.0, 1.06)),
   ("b", (S + "2f997270-IMG_6447.mov", 0.5), 0.7, [N, ("CITROËN C4 CACTUS", "w")], 1.0),
@@ -153,7 +153,7 @@ ev.append(f"Dialogue: 2,{ts(0)},{ts(V_END)},Badge,,0,0,0,,{{\\pos(540,300)\\fad(
 open("t/subs.ass", "w").write(hdr + "\n".join(ev) + "\n")
 
 run(["ffmpeg", "-y", "-v", "error", "-i", "t/joined.mp4", "-i", "t/mix.wav", "-filter_complex",
-     f"[0:v]drawbox=x=0:y=0:w={W}:h={H}:color=black@0.40:t=fill:enable='between(t,{starts[14]},{V_END})',ass=t/subs.ass,{TAG709}[v]",
+     f"[0:v]ass=t/subs.ass,{TAG709}[v]",
      "-map", "[v]", "-map", "1:a", "-t", f"{TOT:.2f}", "-c:v", "libx264", "-preset", "slow", "-crf", "16",
      "-profile:v", "high", "-pix_fmt", "yuv420p", "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709", "-color_range", "tv",
      "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart", OUT])

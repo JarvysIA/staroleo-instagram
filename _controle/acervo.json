@@ -25,7 +25,7 @@
     "Anúncio Star/Tudo até Outubro 26/3A4F854B070AE6FD4648.jpg": "lote-2026-10-22 story Honda Civic (preparado, ainda sem data no Buffer; Civic com capa de placa da Star)",
     "Anúncio Star/Tudo até Outubro 26/3A33163ED6C218FB448C.jpg": "lote-2026-10-22 story Chevrolet (modelo não confirmado: parece Cobalt; placa borrada; preparado, ainda sem data no Buffer)",
     "Anúncio Star/Tudo até Outubro 26/1899b1c7-6987-4ac6-9a7a-402b3e152283.JPG": "trends: carrossel Halloween slide 3 (31/10)",
-    "Anúncio Star/Tudo até Outubro 26/IMG_6037.HEIC": "trends: fundo borrado do carrossel Halloween (pode usar de novo nítido)",
+    "Anúncio Star/Tudo até Outubro 26/IMG_6037.HEIC": "lote-2026-11-08 (15/11): post Black Equipe especializada (nítido) e fundo da contagem 12 dias",
     "Anúncio Star/Câmbio Automático_/Vídeos_/Star - CRV oléo do câmbio.MP4": "trends: b-roll 10-26 s no reel 'Dinheiro não compra felicidade' (29/10); o vídeo já é editado com legenda e fala do Fernando, ainda dá para um reel próprio depois de 14 dias",
     "Anúncio Star/Tudo até Outubro 26/IMG_0959.HEIC": "lote-2026-10-24 story Já passou aqui Renault Captur",
     "Anúncio Star/Tudo até Outubro 26/IMG_1213.HEIC": "lote-2026-10-24 story Já passou aqui Honda Fit",
@@ -65,7 +65,11 @@
     "Anúncio Star/Tudo até Outubro 26/IMG_3066.HEIC": "lote-2026-11-07 (14/11): slide 50 mil km",
     "Anúncio Star/Tudo até Outubro 26/IMG_0849.HEIC": "lote-2026-11-07 (14/11): fundo do CTA",
     "Anúncio Star/Câmbio Automático_/Câmbio C4 Pallas/IMG_0599.HEIC": "lote-2026-11-07 (14/11): story Black Já passou aqui C4 Pallas",
-    "Anúncio Star/Novembro 26/IMG_6161.HEIC": "lote-2026-11-07 (14/11): fundo da contagem 13 dias"
+    "Anúncio Star/Novembro 26/IMG_6161.HEIC": "lote-2026-11-07 (14/11): fundo da contagem 13 dias",
+    "Anúncio Star/Câmbio Automático_/Câmbio TR4/IMG_1646.HEIC": "lote-2026-11-08 (15/11): story Black Já passou aqui Pajero TR4",
+    "Anúncio Star/Novembro 26/IMG_6235.HEIC": "lote-2026-11-08 (16/11): story Black Já passou aqui Hyundai Creta",
+    "Anúncio Star/Tudo até Outubro 26/IMG_0883.MOV": "lote-2026-11-08 (16/11): reel Dica do Fernando 50 mil km (0,85 a 9,25 s)",
+    "Anúncio Star/Tudo até Outubro 26/IMG_0889.MOV": "lote-2026-11-08 (16/11): reel Dica do Fernando 50 mil km (1,15 a 8,15 s, sem o clique no botão)"
   },
   "regras": [
     "JPGs com nome em UUID dentro de Câmbio Automático_ costumam ter figurinhas antigas do Instagram por cima (\"Parcelamos em até 10x\", nome do carro): prefira o HEIC da mesma pasta; use o JPG só se não houver alternativa e se dá para recortar sem as figurinhas.",
@@ -1561,6 +1565,14 @@
     "Anúncio Star/Câmbio Automático_/Vídeos_/Star Óleo 1F.MP4": {
       "tamanho": 39582330,
       "mtimeMs": 1773954281000
+    },
+    "Anúncio Star/Novembro 26/IMG_6498.HEIC": {
+      "size": 3426257,
+      "mtimeMs": 1794179322892
+    },
+    "Anúncio Star/Novembro 26/IMG_6508.HEIC": {
+      "size": 3911051,
+      "mtimeMs": 1794179323092
     }
   },
   "baseline_feita_em": "2026-10-22 (execução de 21/10 21h, Brasília)",
@@ -1788,7 +1800,9 @@
     "Anúncio Star/Novembro 26/reel_cronos_ramone.MP4": "reel já publicado (nosso), só arquivo",
     "Anúncio Star/Novembro 26/reel_creta_tampa_frontal.MP4": "reel já publicado (nosso), só arquivo",
     "Anúncio Star/Novembro 26/reel_renegade_preventiva.MP4": "reel já publicado (nosso), só arquivo",
-    "Anúncio Star/Novembro 26/reel_halloween_abobora.MP4": "reel já publicado (nosso), só arquivo"
+    "Anúncio Star/Novembro 26/reel_halloween_abobora.MP4": "reel já publicado (nosso), só arquivo",
+    "Anúncio Star/Novembro 26/IMG_6498.HEIC": "BMW X2 cinza de frente no chão da oficina, capa de placa da Star (mesmo carro do reel compilado de 11/11): X2 só a partir de 25/11",
+    "Anúncio Star/Novembro 26/IMG_6508.HEIC": "BMW X2 cinza no elevador, capô aberto, carrinho com Motul na frente, capa de placa da Star (mesmo carro do compilado de 11/11): X2 só a partir de 25/11"
   },
-  "ultima_verificacao": "2026-11-07 (21h15): 372 arquivos, nenhum novo desde 02/11; grade completa até 14/11, nada produzido"
+  "ultima_verificacao": "2026-11-08 (21h15): 374 arquivos; 2 novos em Novembro 26 (IMG_6498 e IMG_6508, BMW X2 já usado no compilado); produzidos 15 e 16/11"
 }

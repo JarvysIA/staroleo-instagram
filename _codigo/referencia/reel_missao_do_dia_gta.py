@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Reel 'Missão do dia' (pegando o assunto do lançamento do GTA 6 em 19/11/2026, SEM logo, personagem, arte ou música do jogo).
-Roteiro aprovado pelo Fernando em 17/11/2026 19h49. Material real da Star (C4 Cactus que nunca trocou o óleo do câmbio, BMW X2).
+Roteiro aprovado pelo Fernando em 17/11/2026 19h49. Material real da Star (do começo ao fim a mesma BMW X2 2021: óleo velho e sujo, troca na máquina; ajuste pedido pelo Fernando em 17/11 20h06).
 HUD de 'missão' com visual próprio da Star (preto e dourado). Só texto + trilha + um 'plim' sintetizado no final."""
 import subprocess, os, sys
 W, H, FPS = 1080, 1920, 30
@@ -24,9 +24,9 @@ def broll(src, a, d, out):
 # (fonte, início, duração, textos centrais)
 SC = [
   (S + "b7221792-IMG_6499.mov", 8.0, 2.8, [("HOJE SAI", "w"), ("O GTA 6.", "g")]),
-  (S + "2f997270-IMG_6447.mov", 0.3, 2.6, [("ENQUANTO ISSO,", "w"), ("A MISSÃO DE HOJE:", "g")]),
-  (S + "2f997270-IMG_6447.mov", 5.6, 2.4, [("TROCA DO ÓLEO", "w"), ("DO CÂMBIO", "g")]),
-  (S + "a902da0c-IMG_6448.mov", 2.0, 3.0, [("DIFICULDADE:", "w"), ("NUNCA TROCOU", "g"), ("O ÓLEO", "g")]),
+  (S + "IMG_6507.mov", 22.0, 2.6, [("ENQUANTO ISSO,", "w"), ("A MISSÃO DE HOJE:", "g")]),
+  (S + "IMG_6507.mov", 10.5, 3.0, [("DIFICULDADE:", "w"), ("ÓLEO VELHO", "g"), ("E SUJO", "g")]),
+  (S + "abedd302-IMG_6509.mov", 2.0, 2.6, [("TROCA COMPLETA", "w"), ("NA MÁQUINA", "g")]),
   (S + "abedd302-IMG_6509.mov", 8.4, 3.2, [("ÓLEO NOVO", "w"), ("ENTRANDO", "g")]),
   (S + "abedd302-IMG_6509.mov", 20.0, 2.4, [("MISSÃO", "g"), ("CUMPRIDA.", "w")]),
 ]

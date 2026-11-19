@@ -94,7 +94,9 @@
   "Anúncio Star/Tudo até Outubro 26/4aec0096-e1b0-445c-8c0f-926cb994eb01.JPG": "lote-2026-11-16 story Black Ford EcoSport (23/11), recorte da esquerda sem a parede",
   "Anúncio Star/Tudo até Outubro 26/12fb0de7-4c9c-435b-bc28-2d48c113370c.jpg": "lote-2026-11-16 fundo story 4 dias (23/11)",
   "Anúncio Star/Tudo até Outubro 26/IMG_1263.HEIC": "lote-2026-11-17 story Black Volkswagen (24/11)",
-  "Anúncio Star/Tudo até Outubro 26/187b13c7-f18c-4e04-bc0e-50d8e0e602df.JPG": "lote-2026-11-17 fundo story 3 dias (24/11)"
+  "Anúncio Star/Tudo até Outubro 26/187b13c7-f18c-4e04-bc0e-50d8e0e602df.JPG": "lote-2026-11-17 fundo story 3 dias (24/11)",
+  "Anúncio Star/Tudo até Outubro 26/IMG_1989.HEIC": "lote-2026-11-18 story Black Renault (25/11), recorte da esquerda sem as letras da parede",
+  "Anúncio Star/Tudo até Outubro 26/IMG_2248.HEIC": "lote-2026-11-18 fundo story 2 dias (25/11), cárter velho x novo nas mãos"
  },
  "regras": [
   "JPGs com nome em UUID dentro de Câmbio Automático_ costumam ter figurinhas antigas do Instagram por cima (\"Parcelamos em até 10x\", nome do carro): prefira o HEIC da mesma pasta; use o JPG só se não houver alternativa e se dá para recortar sem as figurinhas.",
@@ -1829,5 +1831,5 @@
   "Anúncio Star/Novembro 26/IMG_6498.HEIC": "BMW X2 cinza de frente no chão da oficina, capa de placa da Star (mesmo carro do reel compilado de 11/11): X2 só a partir de 25/11",
   "Anúncio Star/Novembro 26/IMG_6508.HEIC": "BMW X2 cinza no elevador, capô aberto, carrinho com Motul na frente, capa de placa da Star (mesmo carro do compilado de 11/11): X2 só a partir de 25/11"
  },
- "ultima_verificacao": "2026-11-17 21h20 (Brasília): 374 arquivos, nada novo desde 08/11"
+ "ultima_verificacao": "2026-11-18 21h30 (Brasília): 374 arquivos, nada novo desde 08/11"
 }

@@ -10,11 +10,12 @@ Uso: python3 dica_star_ep1_radiador.py <pasta_fontes> <saida.mp4>
 import os, sys, subprocess
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from star_lib import *
-from black_lib import estrela
+from black_lib import estrela, selo, badge
 from reel_lib import HDR, ts, G
 from PIL import Image, ImageDraw, ImageFilter
 
 SRC, OUT = sys.argv[1], sys.argv[2]
+BLACK = len(sys.argv) > 3 and sys.argv[3] == "black"   # card final com as condições da Black November
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 W, H, FPS = 1080, 1920, 30
 WD = os.path.join(os.path.dirname(os.path.abspath(OUT)), "tmp_ep1"); os.makedirs(WD, exist_ok=True)
@@ -22,7 +23,7 @@ NARR = f"{SRC}/narracao_ep1_radiador.mp3"
 BON = f"{SRC}/boneco_falas_ep1.mp4"
 RAD = f"{REPO}/2026-10/lote2/reel_dica_radiador.mp4"
 MUSIC = f"{REPO}/_codigo/audio/trilha_r15mil.mp3"
-FIM = 2.4
+FIM = 3.4 if BLACK else 2.4
 NARR_END = 21.55
 TOT = round(NARR_END + FIM, 2)
 ENC = ["-c:v", "libx264", "-preset", "fast", "-crf", "14", "-pix_fmt", "yuv420p", "-an"]
@@ -109,6 +110,14 @@ stroke_text(df, (W / 2, H - 450), "A GENTE RESOLVE.", bc(110), GOLD, 0)
 pill(df, W / 2, H - 350, f"CHAME NO WHATSAPP  {WA}", bc(62), GRAF, GOLD, padx=34, pady=16, center=True)
 logo(fim, 300, (W - 300) / 2, H - 200)
 fim.save(f"{WD}/fim.png")
+# card Black (depois da fala): selo das 3 condições + nota do cobrimos ofertas
+blk = Image.new("RGBA", (W, H), (0, 0, 0, 0)); dk = ImageDraw.Draw(blk)
+blk.paste(Image.new("RGBA", (W, 680), (8, 8, 9, 255)), (0, H - 680))
+yb = badge(blk, H - 640, 0.85)
+yb = selo(blk, yb + 34, letra=None, conds=["ATÉ 30% OFF", "10X SEM JUROS", "COBRIMOS OFERTAS*"])
+pill(dk, W / 2, yb + 40, f"CHAME NO WHATSAPP  {WA}", bc(62), GRAF, GOLD, padx=34, pady=16, center=True)
+ctext(dk, W, H - 80, "*Mediante apresentação do orçamento. Consulte as condições.", mrs(28), (200, 200, 200))
+blk.save(f"{WD}/black.png")
 
 # marca d'água @staroleo_rj (flutua devagar)
 wm = Image.new("RGBA", (420, 70), (0, 0, 0, 0)); dw = ImageDraw.Draw(wm)
@@ -135,8 +144,10 @@ ass = f"{WD}/textos.ass"; open(ass, "w").write(STY + "\n".join(ev) + "\n")
 fc = (f"[0:v]format=rgba[b];[b][1:v]overlay=0:0[v1];"
       f"[2:v]format=rgba[cp];[v1][cp]overlay=0:0:enable='lt(t,3.40)'[v2];"
       f"[v2]ass={ass}[v3];"
-      f"[3:v]format=rgba,fade=t=in:st=18.55:d=0.3:alpha=1[fm];[v3][fm]overlay=0:0:enable='gte(t,18.55)'[v4];"
-      f"[v4][4:v]overlay=x='330+260*sin(t/3.1)':y='860+520*sin(t/4.3+1)':enable='lt(t,18.55)',format=yuv420p,"
+      f"[3:v]format=rgba,fade=t=in:st=18.55:d=0.3:alpha=1[fm];[v3][fm]overlay=0:0:enable='between(t,18.55,{NARR_END + 0.3 if BLACK else 999})'[v4];"
+      f"[v4][4:v]overlay=x='330+260*sin(t/3.1)':y='860+520*sin(t/4.3+1)':enable='lt(t,18.55)'[v5];"
+      + (f"[7:v]format=rgba,fade=t=in:st={NARR_END}:d=0.3:alpha=1[bk];[v5][bk]overlay=0:0:enable='gte(t,{NARR_END})'[v6];" if BLACK else "[v5]null[v6];")
+      + f"[v6]format=yuv420p,"
       f"setparams=color_primaries=bt709:color_trc=bt709:colorspace=bt709:range=tv[v];"
       f"[5:a]aresample=48000,aformat=channel_layouts=stereo,apad,atrim=0:{TOT}[voz];"
       f"[6:a]aresample=48000,aformat=channel_layouts=stereo,atrim=0:{TOT},volume=0.13,afade=t=in:d=0.3,afade=t=out:st={TOT-0.9}:d=0.9[mus];"
@@ -147,6 +158,7 @@ run(["ffmpeg", "-v", "error", "-y", "-i", f"{WD}/base.mp4",
      "-loop", "1", "-framerate", str(FPS), "-i", f"{WD}/fim.png",
      "-loop", "1", "-framerate", str(FPS), "-i", f"{WD}/wm.png",
      "-i", NARR, "-stream_loop", "-1", "-i", MUSIC,
+     "-loop", "1", "-framerate", str(FPS), "-i", f"{WD}/black.png",
      "-filter_complex", fc, "-map", "[v]", "-map", "[a]", "-t", str(TOT),
      "-c:v", "libx264", "-preset", "slow", "-crf", "16", "-pix_fmt", "yuv420p",
      "-color_primaries", "bt709", "-color_trc", "bt709", "-colorspace", "bt709",

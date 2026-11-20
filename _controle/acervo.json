@@ -96,7 +96,8 @@
   "Anúncio Star/Tudo até Outubro 26/IMG_1263.HEIC": "lote-2026-11-17 story Black Volkswagen (24/11)",
   "Anúncio Star/Tudo até Outubro 26/187b13c7-f18c-4e04-bc0e-50d8e0e602df.JPG": "lote-2026-11-17 fundo story 3 dias (24/11)",
   "Anúncio Star/Tudo até Outubro 26/IMG_1989.HEIC": "lote-2026-11-18 story Black Renault (25/11), recorte da esquerda sem as letras da parede",
-  "Anúncio Star/Tudo até Outubro 26/IMG_2248.HEIC": "lote-2026-11-18 fundo story 2 dias (25/11), cárter velho x novo nas mãos"
+  "Anúncio Star/Tudo até Outubro 26/IMG_2248.HEIC": "lote-2026-11-18 fundo story 2 dias (25/11), cárter velho x novo nas mãos",
+  "foto_2026-11-19_12-46-21.jpg": "lote-2026-11-19 fundo story \"É AMANHÃ\" (26/11 17h), recorte só do carrinho Mobil CVT e da máquina Motul (sem o carro)"
  },
  "regras": [
   "JPGs com nome em UUID dentro de Câmbio Automático_ costumam ter figurinhas antigas do Instagram por cima (\"Parcelamos em até 10x\", nome do carro): prefira o HEIC da mesma pasta; use o JPG só se não houver alternativa e se dá para recortar sem as figurinhas.",
@@ -1600,6 +1601,14 @@
   "Anúncio Star/Novembro 26/IMG_6508.HEIC": {
    "size": 3911051,
    "mtimeMs": 1794179323092
+  },
+  "foto_2026-11-19_11-37-50.jpg": {
+   "size": 187224,
+   "mtimeMs": 1795104941630
+  },
+  "foto_2026-11-19_12-46-21.jpg": {
+   "size": 198862,
+   "mtimeMs": 1795104916766
   }
  },
  "baseline_feita_em": "2026-10-22 (execução de 21/10 21h, Brasília)",
@@ -1829,7 +1838,9 @@
   "Anúncio Star/Novembro 26/reel_renegade_preventiva.MP4": "reel já publicado (nosso), só arquivo",
   "Anúncio Star/Novembro 26/reel_halloween_abobora.MP4": "reel já publicado (nosso), só arquivo",
   "Anúncio Star/Novembro 26/IMG_6498.HEIC": "BMW X2 cinza de frente no chão da oficina, capa de placa da Star (mesmo carro do reel compilado de 11/11): X2 só a partir de 25/11",
-  "Anúncio Star/Novembro 26/IMG_6508.HEIC": "BMW X2 cinza no elevador, capô aberto, carrinho com Motul na frente, capa de placa da Star (mesmo carro do compilado de 11/11): X2 só a partir de 25/11"
+  "Anúncio Star/Novembro 26/IMG_6508.HEIC": "BMW X2 cinza no elevador, capô aberto, carrinho com Motul na frente, capa de placa da Star (mesmo carro do compilado de 11/11): X2 só a partir de 25/11",
+  "foto_2026-11-19_11-37-50.jpg": "NOVA 19/11 (raiz da pasta Fotos Star, 960x1280, foto de WhatsApp): Hyundai HB20 branco 2ª geração (grade nova) no elevador, capô aberto, capa de placa da Star, carrinho com 9 Havoline ATF e a máquina Motul. Bom para story \"Já passou aqui · Hyundai HB20\" (HB20 saiu em 22/11: só a partir de 06/12) ou fundo.",
+  "foto_2026-11-19_12-46-21.jpg": "NOVA 19/11 (raiz da pasta Fotos Star, 960x1280, foto de WhatsApp): Renault Fluence prata no elevador, capô aberto, capa de placa da Star, carrinho com Mobil CVT e caixa de filtro WFC 941, máquina Motul. Fundo do story AMANHÃ de 26/11 (só o carrinho e a máquina). Story do carro \"Já passou aqui · Renault Fluence\" só a partir de 09/12 (Renault saiu em 25/11)."
  },
- "ultima_verificacao": "2026-11-18 21h30 (Brasília): 374 arquivos, nada novo desde 08/11"
+ "ultima_verificacao": "2026-11-19 21h20 (Brasília): 376 arquivos, 2 fotos novas de 19/11 na raiz da pasta (HB20 branco e Fluence prata)"
 }

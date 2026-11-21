@@ -97,7 +97,15 @@
   "Anúncio Star/Tudo até Outubro 26/187b13c7-f18c-4e04-bc0e-50d8e0e602df.JPG": "lote-2026-11-17 fundo story 3 dias (24/11)",
   "Anúncio Star/Tudo até Outubro 26/IMG_1989.HEIC": "lote-2026-11-18 story Black Renault (25/11), recorte da esquerda sem as letras da parede",
   "Anúncio Star/Tudo até Outubro 26/IMG_2248.HEIC": "lote-2026-11-18 fundo story 2 dias (25/11), cárter velho x novo nas mãos",
-  "foto_2026-11-19_12-46-21.jpg": "lote-2026-11-19 fundo story \"É AMANHÃ\" (26/11 17h), recorte só do carrinho Mobil CVT e da máquina Motul (sem o carro)"
+  "foto_2026-11-19_12-46-21.jpg": "lote-2026-11-19 fundo story \"É AMANHÃ\" (26/11 17h), recorte só do carrinho Mobil CVT e da máquina Motul (sem o carro)",
+  "Anúncio Star/Novembro 26/IMG_6259.HEIC": "lote-2026-11-20 story Black \"Já passou aqui · Jeep Renegade\" (27/11 11h50)",
+  "Anúncio Star/Tudo até Outubro 26/IMG_1829.HEIC": "lote-2026-11-20 fundo story \"É HOJE\" (27/11 17h), tampa do filtro velha x nova nas mãos",
+  "Anúncio Star/Tudo até Outubro 26/IMG_2049.HEIC": "lote-2026-11-20 reel \"É HOJE\" Black Friday (27/11 07h10): Fiat Toro branco no elevador com a máquina Höche/Motul",
+  "Anúncio Star/Tudo até Outubro 26/IMG_1991.HEIC": "lote-2026-11-20 reel \"É HOJE\" Black Friday (27/11 07h10): Honda CR-V prata 3ª geração no elevador com a máquina Höche/Motul",
+  "Anúncio Star/Tudo até Outubro 26/IMG_2039.HEIC": "lote-2026-11-20 reel \"É HOJE\" Black Friday (27/11 07h10): Honda Fit 3ª geração prata no elevador com a máquina Höche/Motul",
+  "Anúncio Star/Tudo até Outubro 26/IMG_2118.HEIC": "lote-2026-11-20 reel \"É HOJE\" Black Friday (27/11 07h10): Honda Fit 1ª geração prata no elevador com a máquina Höche/Motul",
+  "Anúncio Star/Tudo até Outubro 26/IMG_2548.MOV": "lote-2026-11-20 reel \"É HOJE\" Black Friday (27/11 07h10): b-roll cárter com borra",
+  "Anúncio Star/Tudo até Outubro 26/IMG_1938.MOV": "lote-2026-11-20 reel \"É HOJE\" Black Friday (27/11 07h10): b-roll filtro sujo x novo e balde"
  },
  "regras": [
   "JPGs com nome em UUID dentro de Câmbio Automático_ costumam ter figurinhas antigas do Instagram por cima (\"Parcelamos em até 10x\", nome do carro): prefira o HEIC da mesma pasta; use o JPG só se não houver alternativa e se dá para recortar sem as figurinhas.",
@@ -1705,7 +1713,7 @@
   "Anúncio Star/Tudo até Outubro 26/IMG_1797.HEIC": "trocador de calor x radiador de óleo (serviço do Renegade/Toro) – bastidor",
   "Anúncio Star/Tudo até Outubro 26/IMG_1798.HEIC": "Jeep Compass branco no elevador, parede STAR ÓLEO, capa de placa Star",
   "Anúncio Star/Tudo até Outubro 26/IMG_1827.HEIC": "Toyota Etios prata no elevador, parede STAR ÓLEO, capa de placa Star",
-  "Anúncio Star/Tudo até Outubro 26/IMG_1829.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+  "Anúncio Star/Tudo até Outubro 26/IMG_1829.HEIC": "tampa/filtro do câmbio velho (sujo) x novo nas mãos de luva, máquina Höche ao fundo (fundo do story de 27/11 17h)",
   "Anúncio Star/Tudo até Outubro 26/IMG_1836.HEIC": "Subaru vermelho (parece Impreza, confirmar) no elevador",
   "Anúncio Star/Tudo até Outubro 26/IMG_1839.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
   "Anúncio Star/Tudo até Outubro 26/IMG_1848.HEIC": "filtro do câmbio sujo x novo (cartucho), close",
@@ -1713,12 +1721,12 @@
   "Anúncio Star/Tudo até Outubro 26/IMG_1935.HEIC": "Hyundai HB20 azul-escuro, 1ª geração (hatch ou sedã, confirmar) no elevador, parede STAR ÓLEO",
   "Anúncio Star/Tudo até Outubro 26/IMG_1937.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
   "Anúncio Star/Tudo até Outubro 26/IMG_1989.HEIC": "Renault Sandero/Logan prata no elevador, parede STAR ÓLEO",
-  "Anúncio Star/Tudo até Outubro 26/IMG_1991.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/Tudo até Outubro 26/IMG_2039.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/Tudo até Outubro 26/IMG_2049.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+  "Anúncio Star/Tudo até Outubro 26/IMG_1991.HEIC": "Honda CR-V prata 3ª geração no elevador com a máquina Höche/Motul e Mobil, capa Star (reel de 27/11)",
+  "Anúncio Star/Tudo até Outubro 26/IMG_2039.HEIC": "Honda Fit 3ª geração prata no elevador com a máquina Höche/Motul e Havoline, capa Star (reel de 27/11)",
+  "Anúncio Star/Tudo até Outubro 26/IMG_2049.HEIC": "Fiat Toro branco no elevador com a máquina Höche/Motul e Mobil, capa Star (usado no reel de 27/11; Toro de novo só a partir de 11/12)",
   "Anúncio Star/Tudo até Outubro 26/IMG_2114.HEIC": "Renault Sandero Stepway prata no elevador, parede STAR ÓLEO",
   "Anúncio Star/Tudo até Outubro 26/IMG_2116.HEIC": "Toyota Corolla grafite (12ª geração) no elevador com a máquina Höche, capa de placa da Star (fundo em 21/11)",
-  "Anúncio Star/Tudo até Outubro 26/IMG_2118.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+  "Anúncio Star/Tudo até Outubro 26/IMG_2118.HEIC": "Honda Fit 1ª geração prata no elevador com a máquina Höche/Motul e Mobil, capa Star (reel de 27/11)",
   "Anúncio Star/Tudo até Outubro 26/IMG_2186.HEIC": "Hyundai Creta branco (nova geração) no elevador, parede STAR ÓLEO, capa de placa Star",
   "Anúncio Star/Tudo até Outubro 26/IMG_2244.HEIC": "Nissan Kicks branco no elevador, parede STAR ÓLEO",
   "Anúncio Star/Tudo até Outubro 26/IMG_2246.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
@@ -1842,5 +1850,5 @@
   "foto_2026-11-19_11-37-50.jpg": "NOVA 19/11 (raiz da pasta Fotos Star, 960x1280, foto de WhatsApp): Hyundai HB20 branco 2ª geração (grade nova) no elevador, capô aberto, capa de placa da Star, carrinho com 9 Havoline ATF e a máquina Motul. Bom para story \"Já passou aqui · Hyundai HB20\" (HB20 saiu em 22/11: só a partir de 06/12) ou fundo.",
   "foto_2026-11-19_12-46-21.jpg": "NOVA 19/11 (raiz da pasta Fotos Star, 960x1280, foto de WhatsApp): Renault Fluence prata no elevador, capô aberto, capa de placa da Star, carrinho com Mobil CVT e caixa de filtro WFC 941, máquina Motul. Fundo do story AMANHÃ de 26/11 (só o carrinho e a máquina). Story do carro \"Já passou aqui · Renault Fluence\" só a partir de 09/12 (Renault saiu em 25/11)."
  },
- "ultima_verificacao": "2026-11-19 21h20 (Brasília): 376 arquivos, 2 fotos novas de 19/11 na raiz da pasta (HB20 branco e Fluence prata)"
+ "ultima_verificacao": "2026-11-20 21h15 (Brasília): 376 arquivos, nada novo desde 19/11"
 }

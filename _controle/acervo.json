@@ -109,7 +109,10 @@
   "Anúncio Star/Câmbio Automático_/Câmbio BMW X1/IMG_0650.MOV": "lote-2026-11-21: reel ÚLTIMO DIA de 28/11 (0,85 a 12,85 s)",
   "Anúncio Star/Câmbio Automático_/Câmbio BMW X1/IMG_0647.MOV": "lote-2026-11-21: reel ÚLTIMO DIA de 28/11 (8,55 a 11,95 s)",
   "Anúncio Star/Tudo até Outubro 26/IMG_2656.HEIC": "lote-2026-11-21: story Black Já passou aqui · Mercedes-Benz de 28/11",
-  "Anúncio Star/Tudo até Outubro 26/IMG_2655.HEIC": "lote-2026-11-21: fundo do story ÚLTIMO DIA de 28/11"
+  "Anúncio Star/Tudo até Outubro 26/IMG_2655.HEIC": "lote-2026-11-21: fundo do story ÚLTIMO DIA de 28/11",
+  "Anúncio Star/Tudo até Outubro 26/IMG_1789.MOV": "lote-2026-11-22 (29/11) reel café com leite (Fernando com Jeep Compass branco, 0,85 a 18 s)",
+  "Anúncio Star/Tudo até Outubro 26/IMG_2979.HEIC": "lote-2026-11-22 (29/11) story Black Peugeot",
+  "Anúncio Star/Tudo até Outubro 26/IMG_4437.HEIC": "lote-2026-11-22 (29/11) fundo do story só até amanhã"
  },
  "regras": [
   "JPGs com nome em UUID dentro de Câmbio Automático_ costumam ter figurinhas antigas do Instagram por cima (\"Parcelamos em até 10x\", nome do carro): prefira o HEIC da mesma pasta; use o JPG só se não houver alternativa e se dá para recortar sem as figurinhas.",
@@ -1749,11 +1752,11 @@
   "Anúncio Star/Tudo até Outubro 26/IMG_2655.HEIC": "cárter/filtro do câmbio velho preto x novo prata nas mãos de luva",
   "Anúncio Star/Tudo até Outubro 26/IMG_2656.HEIC": "Mercedes-Benz branco (Classe E) no elevador com a máquina Höche/Motul, sem parede STAR ÓLEO",
   "Anúncio Star/Tudo até Outubro 26/IMG_2698.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/Tudo até Outubro 26/IMG_2699.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+  "Anúncio Star/Tudo até Outubro 26/IMG_2699.HEIC": "VW preto Polo/Virtus nova geração no elevador com a máquina Höche e Motul, capa Star, sem parede (VW saiu em 24/11: só a partir de 08/12; NÃO USADO)",
   "Anúncio Star/Tudo até Outubro 26/IMG_2753.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/Tudo até Outubro 26/IMG_2979.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+  "Anúncio Star/Tudo até Outubro 26/IMG_2979.HEIC": "Peugeot branco (308/408) no elevador com a máquina Motul e os Shell, capa Star, sem parede. JÁ USADO story 29/11 (Peugeot de novo só a partir de 13/12)",
   "Anúncio Star/Tudo até Outubro 26/IMG_2985.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/Tudo até Outubro 26/IMG_2989.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+  "Anúncio Star/Tudo até Outubro 26/IMG_2989.HEIC": "Jeep Compass branco no elevador com a máquina Motul e os Shell, capa Star, sem parede (Compass no reel de 29/11: só a partir de 13/12; NÃO USADO)",
   "Anúncio Star/Tudo até Outubro 26/IMG_3062.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
   "Anúncio Star/Tudo até Outubro 26/IMG_3065.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
   "Anúncio Star/Tudo até Outubro 26/IMG_3066.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
@@ -1776,7 +1779,7 @@
   "Anúncio Star/Tudo até Outubro 26/IMG_4282.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
   "Anúncio Star/Tudo até Outubro 26/IMG_4319.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
   "Anúncio Star/Tudo até Outubro 26/IMG_4322.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/Tudo até Outubro 26/IMG_4437.HEIC": "tampa do filtro do câmbio nova x velha nas mãos de luva, balde ao fundo (NÃO USADA)",
+  "Anúncio Star/Tudo até Outubro 26/IMG_4437.HEIC": "tampa do filtro do câmbio nova x velha nas mãos de luva com balde. JÁ USADO fundo do story 29/11",
   "Anúncio Star/Tudo até Outubro 26/IMG_4438.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
   "Anúncio Star/Tudo até Outubro 26/IMG_5205.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
   "Anúncio Star/Tudo até Outubro 26/IMG_5950.HEIC": "Fernando sorrindo no balcão/prateleira de óleos (bom para post institucional)",
@@ -1855,7 +1858,10 @@
   "foto_2026-11-19_12-46-21.jpg": "NOVA 19/11 (raiz da pasta Fotos Star, 960x1280, foto de WhatsApp): Renault Fluence prata no elevador, capô aberto, capa de placa da Star, carrinho com Mobil CVT e caixa de filtro WFC 941, máquina Motul. Fundo do story AMANHÃ de 26/11 (só o carrinho e a máquina). Story do carro \"Já passou aqui · Renault Fluence\" só a partir de 09/12 (Renault saiu em 25/11).",
   "Anúncio Star/Câmbio Automático_/Câmbio BMW X1/IMG_0647.MOV": "Fernando na frente da BMW X1 branca no elevador (parede STAR ÓLEO no alto), máquina Höche, Mobil e filtro WFC; fala de anúncio 12 s: 'troca de óleo de câmbio com o melhor preço da região... parcelamos em dez vezes... vem pra cá, cuida do seu câmbio quem entende do assunto. Vem pra melhor, vem pra Star' (Scribe em 2026-11/fontes/dica_x1/)",
   "Anúncio Star/Câmbio Automático_/Câmbio BMW X1/IMG_0650.MOV": "Fernando na frente da BMW X1 (mais perto), 15,8 s: 'troca de óleo de câmbio é aqui na Star... excelência, produtos de primeira linha, máquina especializada... dez vezes sem juros. Clique no botão abaixo...' (cortar o fim)",
-  "Anúncio Star/Câmbio Automático_/Câmbio BMW X1/IMG_0651.MOV": "Fernando na frente da BMW X1 (close), 10,2 s: 'melhor preço da região e condições que cabem no seu bolso... dez vezes sem juros. Clique no botão abaixo...' NÃO USADO"
+  "Anúncio Star/Câmbio Automático_/Câmbio BMW X1/IMG_0651.MOV": "Fernando na frente da BMW X1 (close), 10,2 s: 'melhor preço da região e condições que cabem no seu bolso... dez vezes sem juros. Clique no botão abaixo...' NÃO USADO",
+  "Anúncio Star/Tudo até Outubro 26/IMG_1789.MOV": "Fernando na frente de Jeep Compass branco (capa Star, parede STAR ÓLEO no alto, aparece o fixo na parede), 18 s 4K HLG: 'Café com leite só é bom na sua mesa de café da manhã... prejuízo no seu bolso... manutenção preventiva, troca do trocador de calor pelo original ou pelo radiador de óleo... Vem pra Star, vem pra quem entende do assunto'. Scribe em 2026-11/fontes/compass_1789/. JÁ USADO 29/11",
+  "Anúncio Star/Câmbio Automático_/Vídeos_/IMG_1653.MOV": "BRUTO (48 s, 4K) do depoimento do João com o Fernando, Nissan Kicks cinza no elevador: mesmo cliente do reel de 22/10 (JÁ USADO, não repostar)",
+  "Anúncio Star/Câmbio Automático_/Vídeos_/IMG_2188.MOV": "BRUTO (48,5 s, 4K) do depoimento do Alexandre com o Fernando na frente da parede STAR ÓLEO, Hyundai branco: mesmo cliente do reel do lote2 (JÁ USADO, não repostar)"
  },
- "ultima_verificacao": "2026-11-21 21h15: 376 arquivos, nada novo"
+ "ultima_verificacao": "2026-11-22 21h15: 376 arquivos (sem desktop.ini), nada novo desde 19/11"
 }

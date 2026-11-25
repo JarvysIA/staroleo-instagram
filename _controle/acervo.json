@@ -70,7 +70,7 @@
   "Anúncio Star/Novembro 26/IMG_6235.HEIC": "lote-2026-11-08 (16/11): story Black Já passou aqui Hyundai Creta",
   "Anúncio Star/Tudo até Outubro 26/IMG_0883.MOV": "lote-2026-11-08 (16/11): reel Dica do Fernando 50 mil km (0,85 a 9,25 s)",
   "Anúncio Star/Tudo até Outubro 26/IMG_0889.MOV": "lote-2026-11-08 (16/11): reel Dica do Fernando 50 mil km (1,15 a 8,15 s, sem o clique no botão)",
-  "2026-10/fontes/cronos/foto_cronos_elevador_maquina.jpg (repositório)": "trends 09/11: carrossel Dá um zoom (17/11, com etiqueta ATÉ 30% OFF desenhada) e cena final do reel Não, não, não… SIM! (19/11)",
+  "2026-10/fontes/cronos/foto_cronos_elevador_maquina.jpg (repositório)": "lote-2026-11-25 (03/12) story frase do Ramone",
   "2026-10/fontes/fernando_balcao.jpg (repositório)": "trends 09/11: base das 2 cenas de IA do reel Não, não, não… SIM! (19/11), em 2026-11/fontes/trend_nao_sim/",
   "Anúncio Star/Tudo até Outubro 26/IMG_1836.HEIC": "lote-2026-11-10 (17/11): story Black Já passou aqui Subaru (vermelho, parece Impreza; escrito só SUBARU)",
   "Anúncio Star/Tudo até Outubro 26/IMG_5990.HEIC": "lote-2026-11-10 (17/11): fundo da contagem 10 dias (filtro novo x sujo nas mãos)",
@@ -112,7 +112,10 @@
   "Anúncio Star/Tudo até Outubro 26/IMG_2655.HEIC": "lote-2026-11-21: fundo do story ÚLTIMO DIA de 28/11",
   "Anúncio Star/Tudo até Outubro 26/IMG_1789.MOV": "lote-2026-11-22 (29/11) reel café com leite (Fernando com Jeep Compass branco, 0,85 a 18 s)",
   "Anúncio Star/Tudo até Outubro 26/IMG_2979.HEIC": "lote-2026-11-22 (29/11) story Black Peugeot",
-  "Anúncio Star/Tudo até Outubro 26/IMG_4437.HEIC": "lote-2026-11-22 (29/11) fundo do story só até amanhã"
+  "Anúncio Star/Tudo até Outubro 26/IMG_4437.HEIC": "lote-2026-11-22 (29/11) fundo do story só até amanhã",
+  "Anúncio Star/Tudo até Outubro 26/IMG_3690.HEIC": "lote-2026-11-25 (30/11) story Black Citroën",
+  "Anúncio Star/Tudo até Outubro 26/IMG_3422.HEIC": "lote-2026-11-25 (30/11) fundo do story último dia",
+  "Anúncio Star/Tudo até Outubro 26/IMG_4254.HEIC": "lote-2026-11-25 (02/12) story Toyota Yaris"
  },
  "regras": [
   "JPGs com nome em UUID dentro de Câmbio Automático_ costumam ter figurinhas antigas do Instagram por cima (\"Parcelamos em até 10x\", nome do carro): prefira o HEIC da mesma pasta; use o JPG só se não houver alternativa e se dá para recortar sem as figurinhas.",
@@ -1763,9 +1766,9 @@
   "Anúncio Star/Tudo até Outubro 26/IMG_3067.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
   "Anúncio Star/Tudo até Outubro 26/IMG_3232.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
   "Anúncio Star/Tudo até Outubro 26/IMG_3251.HEIC": "Honda Civic prata (9ª geração) no elevador com a máquina Motul e Mobil, capa de placa da Star. USADO 20/11",
-  "Anúncio Star/Tudo até Outubro 26/IMG_3422.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+  "Anúncio Star/Tudo até Outubro 26/IMG_3422.HEIC": "Fiat vermelho (Argo) no elevador com a máquina Motul e os óleos, capa Star. Fundo escurecido do story ÚLTIMO DIA de 30/11 (story do carro ainda livre, de preferência depois de 14/12)",
   "Anúncio Star/Tudo até Outubro 26/IMG_3594.HEIC": "Nissan Sentra azul no elevador com a máquina Motul, capa de placa da Star (usado como fundo em 21/11)",
-  "Anúncio Star/Tudo até Outubro 26/IMG_3690.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+  "Anúncio Star/Tudo até Outubro 26/IMG_3690.HEIC": "Citroën branco (C4 Cactus) no elevador com a máquina Motul e os óleos, capa Star, sem parede. JÁ USADO story Black 30/11 (Citroën de novo só a partir de 14/12)",
   "Anúncio Star/Tudo até Outubro 26/IMG_3693.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
   "Anúncio Star/Tudo até Outubro 26/IMG_3902.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
   "Anúncio Star/Tudo até Outubro 26/IMG_4121.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
@@ -1774,14 +1777,14 @@
   "Anúncio Star/Tudo até Outubro 26/IMG_4235.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
   "Anúncio Star/Tudo até Outubro 26/IMG_4236.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
   "Anúncio Star/Tudo até Outubro 26/IMG_4237.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
-  "Anúncio Star/Tudo até Outubro 26/IMG_4254.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+  "Anúncio Star/Tudo até Outubro 26/IMG_4254.HEIC": "Toyota Yaris amarelo no elevador com a máquina Motul, óleos e filtro, capa Star. JÁ USADO story 02/12 (Yaris de novo só a partir de 16/12)",
   "Anúncio Star/Tudo até Outubro 26/IMG_4256.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
   "Anúncio Star/Tudo até Outubro 26/IMG_4282.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
   "Anúncio Star/Tudo até Outubro 26/IMG_4319.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/Tudo até Outubro 26/IMG_4322.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+  "Anúncio Star/Tudo até Outubro 26/IMG_4322.HEIC": "Nissan Kicks cinza nova geração no elevador com a máquina Motul, capa Star. NÃO USADO (Kicks só a partir de 05/12)",
   "Anúncio Star/Tudo até Outubro 26/IMG_4437.HEIC": "tampa do filtro do câmbio nova x velha nas mãos de luva com balde. JÁ USADO fundo do story 29/11",
   "Anúncio Star/Tudo até Outubro 26/IMG_4438.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
-  "Anúncio Star/Tudo até Outubro 26/IMG_5205.HEIC": "carro no elevador com máquina Motul/Höche e produtos (story Já passou aqui; modelo a identificar)",
+  "Anúncio Star/Tudo até Outubro 26/IMG_5205.HEIC": "Jeep Compass branco no elevador com a máquina Motul, capa Star. NÃO USADO (Compass só a partir de 13/12)",
   "Anúncio Star/Tudo até Outubro 26/IMG_5950.HEIC": "Fernando sorrindo no balcão/prateleira de óleos (bom para post institucional)",
   "Anúncio Star/Tudo até Outubro 26/IMG_5958.jpg": "print do site da Star (não postar)",
   "Anúncio Star/Tudo até Outubro 26/IMG_5988.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
@@ -1863,5 +1866,5 @@
   "Anúncio Star/Câmbio Automático_/Vídeos_/IMG_1653.MOV": "BRUTO (48 s, 4K) do depoimento do João com o Fernando, Nissan Kicks cinza no elevador: mesmo cliente do reel de 22/10 (JÁ USADO, não repostar)",
   "Anúncio Star/Câmbio Automático_/Vídeos_/IMG_2188.MOV": "BRUTO (48,5 s, 4K) do depoimento do Alexandre com o Fernando na frente da parede STAR ÓLEO, Hyundai branco: mesmo cliente do reel do lote2 (JÁ USADO, não repostar)"
  },
- "ultima_verificacao": "2026-11-22 21h15: 376 arquivos (sem desktop.ini), nada novo desde 19/11"
+ "ultima_verificacao": "2026-11-25 11h45: 376 arquivos (sem desktop.ini), nada novo desde 19/11"
 }

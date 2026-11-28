@@ -123,7 +123,11 @@
   "Downloads/IMG_4855.MOV (6,0 s)": "lote-2026-11-27 reel \"cortes no ritmo\" da troca de óleo do câmbio (estilo do vídeo de referência do Fernando, 27/11)",
   "Downloads/IMG_4854.MOV (9,6 s)": "lote-2026-11-27 reel \"cortes no ritmo\" da troca de óleo do câmbio (estilo do vídeo de referência do Fernando, 27/11)",
   "Downloads/IMG_4873.MP4 (3,2 s)": "lote-2026-11-27 reel \"cortes no ritmo\" da troca de óleo do câmbio (estilo do vídeo de referência do Fernando, 27/11)",
-  "Downloads/IMG_4841.MOV (0-1,5 s e fundo do fim)": "lote-2026-11-27 reel \"cortes no ritmo\" da troca de óleo do câmbio (estilo do vídeo de referência do Fernando, 27/11)"
+  "Downloads/IMG_4841.MOV (0-1,5 s e fundo do fim)": "lote-2026-11-27 reel \"cortes no ritmo\" da troca de óleo do câmbio (estilo do vídeo de referência do Fernando, 27/11)",
+  "Anúncio Star/Tudo até Outubro 26/IMG_4256.HEIC": "lote-2026-11-27 (04/12) story Chevrolet Spin",
+  "Anúncio Star/Pneus Crystone/IMG_0286.HEIC": "lote-2026-11-27 (04/12) story pneus Crystone 199,90 no pix (215/65R16 remold)",
+  "Anúncio Star/Tudo até Outubro 26/IMG_4237.HEIC": "lote-2026-11-27 (05/12) story Nissan Kicks",
+  "Anúncio Star/Tudo até Outubro 26/IMG_1839.HEIC": "lote-2026-11-27 (05/12) story bastidor filtro velho x novo"
  },
  "regras": [
   "JPGs com nome em UUID dentro de Câmbio Automático_ costumam ter figurinhas antigas do Instagram por cima (\"Parcelamos em até 10x\", nome do carro): prefira o HEIC da mesma pasta; use o JPG só se não houver alternativa e se dá para recortar sem as figurinhas.",
@@ -1733,7 +1737,7 @@
   "Anúncio Star/Tudo até Outubro 26/IMG_1827.HEIC": "Toyota Etios prata no elevador, parede STAR ÓLEO, capa de placa Star",
   "Anúncio Star/Tudo até Outubro 26/IMG_1829.HEIC": "tampa/filtro do câmbio velho (sujo) x novo nas mãos de luva, máquina Höche ao fundo (fundo do story de 27/11 17h)",
   "Anúncio Star/Tudo até Outubro 26/IMG_1836.HEIC": "Subaru vermelho (parece Impreza, confirmar) no elevador",
-  "Anúncio Star/Tudo até Outubro 26/IMG_1839.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+  "Anúncio Star/Tudo até Outubro 26/IMG_1839.HEIC": "bastidor: filtro do câmbio velho sujo x novo WEGA nas mãos de luva (sem figurinha); usado no story de 05/12",
   "Anúncio Star/Tudo até Outubro 26/IMG_1848.HEIC": "filtro do câmbio sujo x novo (cartucho), close",
   "Anúncio Star/Tudo até Outubro 26/IMG_1849.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
   "Anúncio Star/Tudo até Outubro 26/IMG_1935.HEIC": "Hyundai HB20 azul-escuro, 1ª geração (hatch ou sedã, confirmar) no elevador, parede STAR ÓLEO",
@@ -1768,7 +1772,7 @@
   "Anúncio Star/Tudo até Outubro 26/IMG_2979.HEIC": "Peugeot branco (308/408) no elevador com a máquina Motul e os Shell, capa Star, sem parede. JÁ USADO story 29/11 (Peugeot de novo só a partir de 13/12)",
   "Anúncio Star/Tudo até Outubro 26/IMG_2985.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
   "Anúncio Star/Tudo até Outubro 26/IMG_2989.HEIC": "Jeep Compass branco no elevador com a máquina Motul e os Shell, capa Star, sem parede (Compass no reel de 29/11: só a partir de 13/12; NÃO USADO)",
-  "Anúncio Star/Tudo até Outubro 26/IMG_3062.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
+  "Anúncio Star/Tudo até Outubro 26/IMG_3062.HEIC": "bastidor: tampa/filtro do câmbio velho com óleo x novo nas mãos de luva (sem figurinha); NÃO USADO",
   "Anúncio Star/Tudo até Outubro 26/IMG_3065.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
   "Anúncio Star/Tudo até Outubro 26/IMG_3066.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
   "Anúncio Star/Tudo até Outubro 26/IMG_3067.HEIC": "bastidor: filtro/cárter do câmbio velho x novo (bom para story bastidor e carrossel)",
@@ -1872,7 +1876,8 @@
   "Anúncio Star/Câmbio Automático_/Câmbio BMW X1/IMG_0651.MOV": "Fernando na frente da BMW X1 (close), 10,2 s: 'melhor preço da região e condições que cabem no seu bolso... dez vezes sem juros. Clique no botão abaixo...' NÃO USADO",
   "Anúncio Star/Tudo até Outubro 26/IMG_1789.MOV": "Fernando na frente de Jeep Compass branco (capa Star, parede STAR ÓLEO no alto, aparece o fixo na parede), 18 s 4K HLG: 'Café com leite só é bom na sua mesa de café da manhã... prejuízo no seu bolso... manutenção preventiva, troca do trocador de calor pelo original ou pelo radiador de óleo... Vem pra Star, vem pra quem entende do assunto'. Scribe em 2026-11/fontes/compass_1789/. JÁ USADO 29/11",
   "Anúncio Star/Câmbio Automático_/Vídeos_/IMG_1653.MOV": "BRUTO (48 s, 4K) do depoimento do João com o Fernando, Nissan Kicks cinza no elevador: mesmo cliente do reel de 22/10 (JÁ USADO, não repostar)",
-  "Anúncio Star/Câmbio Automático_/Vídeos_/IMG_2188.MOV": "BRUTO (48,5 s, 4K) do depoimento do Alexandre com o Fernando na frente da parede STAR ÓLEO, Hyundai branco: mesmo cliente do reel do lote2 (JÁ USADO, não repostar)"
+  "Anúncio Star/Câmbio Automático_/Vídeos_/IMG_2188.MOV": "BRUTO (48,5 s, 4K) do depoimento do Alexandre com o Fernando na frente da parede STAR ÓLEO, Hyundai branco: mesmo cliente do reel do lote2 (JÁ USADO, não repostar)",
+  "Anúncio Star/Pneus Crystone/IMG_0286.HEIC": "pneu Crystone 215/65R16 de pé com a etiqueta (pneu remold), prateleira de pneus ao fundo"
  },
- "ultima_verificacao": "2026-11-26 21h20: 376 arquivos (sem desktop.ini), nada novo desde 19/11; grade completa até 03/12, sem produção; identificados IMG_3693 (Fiat), IMG_4237 (Kicks) e IMG_4256 (Spin)"
+ "ultima_verificacao": "2026-11-27 21h20: 376 arquivos (sem desktop.ini), nada novo desde 19/11; produzidos os stories de 04/12 e 05/12 (lote-2026-11-27)"
 }
